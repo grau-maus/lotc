@@ -14,11 +14,13 @@ module.exports = {
       },
       articleId: {
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: { model: 'Articles' }
       },
       userId: {
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: { model: 'Users' }
       },
       createdAt: {
         allowNull: false,
