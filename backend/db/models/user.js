@@ -27,9 +27,9 @@ module.exports = (sequelize, DataTypes) => {
         len: [3, 256]
       },
     },
-    profilePic: {
-      type: DataTypes.STRING(255),
-      allowNull: true
+    isAdmin: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false
     },
     hashedPassword: {
       type: DataTypes.STRING.BINARY,
@@ -99,7 +99,8 @@ module.exports = (sequelize, DataTypes) => {
   };
 
   User.associate = function (models) {
-    // associations here
+    User.hasMany(models.Article, { foreignKey: 'articleId', onDelete:'CASCADE' });
+    User.hasMany(models.Comment, { foreignKey:'commentId', onDelete:'CASCADE'});
   };
 
   return User;
