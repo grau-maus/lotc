@@ -43,15 +43,13 @@ module.exports = (sequelize, DataTypes) => {
     {
       defaultScope: {
         attributes: {
-          exclude: ['hashedPassword'],
-          exclude: ['roleId']
+          exclude: ['hashedPassword', 'roleId']
         },
       },
       scopes: {
         currentUser: {
           attributes: {
-            exclude: ['hashedPassword'],
-            exclude: ['roleId']
+            exclude: ['hashedPassword', 'roleId']
           },
         },
         loginUser: {
@@ -85,9 +83,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     });
     if (user && user.validatePassword(password)) {
-      return await User.scope('currentUser').findByPk(user.id, {
-        include: Like
-      });
+      return await User.scope('currentUser').findByPk(user.id);
     }
   };
 

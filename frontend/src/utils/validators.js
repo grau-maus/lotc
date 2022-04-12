@@ -4,7 +4,7 @@ const validateEmail = (email) => {
   return emailRegEx.test(email);
 };
 
-export const FEsignupValidation = ({
+export const FESignupValidation = ({
   email,
   username,
   password,
@@ -29,7 +29,6 @@ export const FEsignupValidation = ({
     noErrors = false;
   }
 
-  // add check for username in db if exists
   if (!username) {
     setErrors((errors) => ({
       ...errors,
@@ -57,7 +56,7 @@ export const FEsignupValidation = ({
   return noErrors;
 };
 
-export const BEsignupValidation = ({ BEErrors, setErrors }) => {
+export const BESignupValidation = ({ BEErrors, setErrors }) => {
   if (!BEErrors || !BEErrors.length) return;
 
   BEErrors.forEach((error) => {
@@ -84,4 +83,30 @@ export const BEsignupValidation = ({ BEErrors, setErrors }) => {
       }));
     }
   });
+};
+
+export const FESigninValidation = ({
+  credential,
+  password,
+  setErrors
+}) => {
+  let noErrors = true;
+
+  if (!credential) {
+    setErrors((errors) => ({
+      ...errors,
+      credential: "Please provide a username / email"
+    }));
+    noErrors = false;
+  }
+
+  if (!password) {
+    setErrors((errors) => ({
+      ...errors,
+      password: "Please provide a password"
+    }));
+    noErrors = false;
+  }
+
+  return noErrors;
 };
