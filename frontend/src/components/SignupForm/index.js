@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { Form, Button, Card } from 'react-bootstrap';
 import "./SignupForm.css";
 import * as sessionActions from "../../store/session";
-import { FEsignupValidation, BEsignupValidation } from "../../utils/validators";
+import { FESignupValidation, BESignupValidation } from "../../utils/validators";
 
 const initInvalidErrorMap = {
   email: "",
@@ -22,41 +22,49 @@ function SignupForm() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [errors, setErrors] = useState(initInvalidErrorMap);
 
+  useEffect(() => {
+    return () => {
+      setEmail("");
+      setUsername("");
+      setPassword("");
+      setConfirmPassword("");
+    }
+  }, []);
+
   if (sessionUser) return <Redirect to="/" />;
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setEmail((email) => email.trim());
+    setUsername((username) => username.trim());
+    setPassword((password) => password.trim());
+    setConfirmPassword((confirmPassword) => confirmPassword.trim());
+
     const validationInfo = {
-      email,
-      username,
-      password,
-      confirmPassword,
+      email: email.trim(),
+      username: username.trim(),
+      password: password.trim(),
+      confirmPassword: confirmPassword.trim(),
       setErrors
     };
 
     if (password === confirmPassword) {
-      if (!FEsignupValidation(validationInfo)) return;
+      if (!FESignupValidation(validationInfo)) return;
 
       setErrors(initInvalidErrorMap);
       dispatch(sessionActions.signup(validationInfo))
-        .then(() => {
-          setEmail("");
-          setUsername("");
-          setPassword("");
-          setConfirmPassword("");
-        })
         .catch(async (res) => {
           const data = await res.json();
 
           if (data && data.errors.length) {
-            BEsignupValidation({
+            BESignupValidation({
               BEErrors: data.errors,
               setErrors
             });
           }
         });
     } else {
-      FEsignupValidation(validationInfo);
+      FESignupValidation(validationInfo);
       setErrors((errors) => ({
         ...errors,
         confirmPassword: "Passwords must match"
