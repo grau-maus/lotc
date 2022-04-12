@@ -7,12 +7,13 @@ module.exports = (sequelize, DataTypes) => {
     },
     userId: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
+      references: { model: 'Users' }
     }
   }, {});
-  Article.associate = function(models) {
-    Article.belongsTo(models.User, { foreignKey: 'userId'});
-    Article.hasMany(models.Comment, { foreignKey:'commentId', onDelete:'CASCADE' })
+  Article.associate = function (models) {
+    Article.belongsTo(models.User, { foreignKey: 'userId' });
+    Article.hasMany(models.Comment, { foreignKey: 'commentId', onDelete: 'CASCADE' })
   };
   return Article;
 };
