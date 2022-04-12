@@ -35,21 +35,26 @@ function SignupForm() {
     };
 
     if (password === confirmPassword) {
-      console.log(errors)
       if (!FEsignupValidation(validationInfo)) return;
 
       setErrors(initInvalidErrorMap);
       dispatch(sessionActions.signup(validationInfo))
+        .then(() => {
+          setEmail("");
+          setUsername("");
+          setPassword("");
+          setConfirmPassword("");
+        })
         .catch(async (res) => {
           const data = await res.json();
 
-          BEsignupValidation({
-            BEErrors: data.errors,
-            setErrors
-          });
-          console.log(data);
+          if (data && data.errors.length) {
+            BEsignupValidation({
+              BEErrors: data.errors,
+              setErrors
+            });
+          }
         });
-
     } else {
       FEsignupValidation(validationInfo);
       setErrors((errors) => ({

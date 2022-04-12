@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as sessionActions from "./store/session";
 import SignupForm from "./components/SignupForm";
+import LogOut from "./components/Buttons/LogOut";
 
 function App() {
   const dispatch = useDispatch();
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <LogOut />
       <SignupForm />
     </>
   );
