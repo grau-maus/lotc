@@ -4,7 +4,7 @@ const validateEmail = (email) => {
   return emailRegEx.test(email);
 };
 
-export const signupValidation = ({
+export const FEsignupValidation = ({
   email,
   username,
   password,
@@ -13,10 +13,18 @@ export const signupValidation = ({
 }) => {
   let noErrors = true;
 
-  if (!email || !validateEmail(email)) {
+  if (!email) {
     setErrors((errors) => ({
       ...errors,
-      email: true
+      email: "Please provide an email"
+    }));
+    noErrors = false;
+  }
+
+  if (email && !validateEmail(email)) {
+    setErrors((errors) => ({
+      ...errors,
+      email: "Invalid email"
     }));
     noErrors = false;
   }
@@ -25,7 +33,7 @@ export const signupValidation = ({
   if (!username) {
     setErrors((errors) => ({
       ...errors,
-      username: true
+      username: "Please provide a username"
     }));
     noErrors = false;
   }
@@ -33,7 +41,7 @@ export const signupValidation = ({
   if (!password) {
     setErrors((errors) => ({
       ...errors,
-      password: true
+      password: "Please provide a password"
     }));
     noErrors = false;
   }
@@ -41,10 +49,39 @@ export const signupValidation = ({
   if (!confirmPassword) {
     setErrors((errors) => ({
       ...errors,
-      confirmPassword: true
+      confirmPassword: "Passwords must match"
     }));
     noErrors = false;
   }
 
   return noErrors;
+};
+
+export const BEsignupValidation = ({ BEErrors, setErrors }) => {
+  if (!BEErrors || !BEErrors.length) return;
+
+  BEErrors.forEach((error) => {
+    const LCError = error.toLowerCase();
+
+    if (LCError.includes("password")) {
+      setErrors((errors) => ({
+        ...errors,
+        password: error
+      }));
+    }
+
+    if (LCError.includes("username")) {
+      setErrors((errors) => ({
+        ...errors,
+        username: error
+      }));
+    }
+
+    if (LCError.includes("email")) {
+      setErrors((errors) => ({
+        ...errors,
+        email: error
+      }));
+    }
+  });
 };

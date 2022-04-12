@@ -4,13 +4,13 @@ import { Redirect } from "react-router-dom";
 import { Form, Button, Card } from 'react-bootstrap';
 import "./SignupForm.css";
 import * as sessionActions from "../../store/session";
-import { signupValidation } from "../../utils/validators";
+import { FEsignupValidation, BEsignupValidation } from "../../utils/validators";
 
 const initInvalidErrorMap = {
-  email: false,
-  username: false,
-  password: false,
-  confirmPassword: false
+  email: "",
+  username: "",
+  password: "",
+  confirmPassword: ""
 };
 
 function SignupForm() {
@@ -20,39 +20,42 @@ function SignupForm() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [passwordMismatch, setPasswordMismatch] = useState(false);
   const [errors, setErrors] = useState(initInvalidErrorMap);
 
   if (sessionUser) return <Redirect to="/" />;
 
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
+    const validationInfo = {
+      email,
+      username,
+      password,
+      confirmPassword,
+      setErrors
+    };
 
     if (password === confirmPassword) {
-      const validationInfo = {
-        email,
-        username,
-        password,
-        confirmPassword,
-        setErrors
-      };
-
-      if (!signupValidation(validationInfo)) return;
+      console.log(errors)
+      if (!FEsignupValidation(validationInfo)) return;
 
       setErrors(initInvalidErrorMap);
-      console.log(email);
-      console.log(username);
-      console.log(password);
-      // return dispatch(sessionActions.signup({ email, username, password }))
-      //   .catch(async (res) => {
-      //     const data = await res.json();
-      //     if (data && data.errors) setErrors(data.errors);
-      //   });
+      dispatch(sessionActions.signup(validationInfo))
+        .catch(async (res) => {
+          const data = await res.json();
+
+          BEsignupValidation({
+            BEErrors: data.errors,
+            setErrors
+          });
+          console.log(data);
+        });
 
     } else {
-      setErrors((errors) => ({ ...errors, confirmPassword: true }));
+      FEsignupValidation(validationInfo);
+      setErrors((errors) => ({
+        ...errors,
+        confirmPassword: "Passwords must match"
+      }));
     }
   };
 
@@ -71,7 +74,7 @@ function SignupForm() {
                   if (errors.email) {
                     setErrors((errors) => ({
                       ...errors,
-                      email: false
+                      email: ""
                     }));
                   }
                   setEmail(e.target.value);
@@ -79,7 +82,7 @@ function SignupForm() {
                 isInvalid={errors.email}
               />
               <Form.Control.Feedback type="invalid">
-                Invalid email
+                {errors.email && errors.email}
               </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
@@ -92,7 +95,7 @@ function SignupForm() {
                   if (errors.username) {
                     setErrors((errors) => ({
                       ...errors,
-                      username: false
+                      username: ""
                     }));
                   }
                   setUsername(e.target.value);
@@ -100,7 +103,7 @@ function SignupForm() {
                 isInvalid={errors.username}
               />
               <Form.Control.Feedback type="invalid">
-                Invalid username
+                {errors.username}
               </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -113,7 +116,7 @@ function SignupForm() {
                   if (errors.password) {
                     setErrors((errors) => ({
                       ...errors,
-                      password: false
+                      password: ""
                     }));
                   }
                   setPassword(e.target.value);
@@ -122,7 +125,7 @@ function SignupForm() {
                 isInvalid={errors.password}
               />
               <Form.Control.Feedback type="invalid">
-                Please enter a password
+                {errors.password}
               </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
@@ -135,7 +138,7 @@ function SignupForm() {
                   if (errors.confirmPassword) {
                     setErrors((errors) => ({
                       ...errors,
-                      confirmPassword: false
+                      confirmPassword: ""
                     }));
                   }
                   setConfirmPassword(e.target.value);
@@ -144,7 +147,7 @@ function SignupForm() {
                 isInvalid={errors.confirmPassword}
               />
               <Form.Control.Feedback type="invalid">
-                Passwords must match
+                {errors.confirmPassword}
               </Form.Control.Feedback>
             </Form.Group>
             <Button variant="primary" type="submit">
