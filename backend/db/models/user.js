@@ -27,9 +27,11 @@ module.exports = (sequelize, DataTypes) => {
         len: [3, 256]
       },
     },
-    isAdmin: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false
+    roleId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 1,
+      references: { model: 'Roles' }
     },
     hashedPassword: {
       type: DataTypes.STRING.BINARY,
@@ -43,12 +45,14 @@ module.exports = (sequelize, DataTypes) => {
       defaultScope: {
         attributes: {
           exclude: ['hashedPassword'],
+          exclude: ['roleId']
         },
       },
       scopes: {
         currentUser: {
           attributes: {
             exclude: ['hashedPassword'],
+            exclude: ['roleId']
           },
         },
         loginUser: {
@@ -101,6 +105,7 @@ module.exports = (sequelize, DataTypes) => {
   User.associate = function (models) {
     User.hasMany(models.Article, { foreignKey: 'articleId', onDelete: 'CASCADE' });
     User.hasMany(models.Comment, { foreignKey: 'commentId', onDelete: 'CASCADE' });
+    User.belongsTo(models.Role, { foreignKey: 'roleId' });
   };
 
   return User;

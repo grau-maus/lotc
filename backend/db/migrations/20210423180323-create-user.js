@@ -22,9 +22,10 @@ module.exports = {
         type: Sequelize.STRING.BINARY,
         allowNull: false,
       },
-      isAdmin: {
-        type: Sequelize.BOOLEAN,
+      roleId: {
+        type: Sequelize.INTEGER,
         allowNull: false,
+        references: { model: 'Roles'}
       },
       createdAt: {
         allowNull: false,
