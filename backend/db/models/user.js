@@ -29,7 +29,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     roleId: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       defaultValue: 1,
       references: { model: 'Roles' }
     },
@@ -62,8 +61,8 @@ module.exports = (sequelize, DataTypes) => {
     });
 
   User.prototype.toSafeObject = function () {
-    const { id, username, email, profilePic, createdAt, updatedAt } = this;
-    const user = { id, username, email, profilePic, createdAt, updatedAt };
+    const { id, username, email, createdAt, updatedAt } = this;
+    const user = { id, username, email, createdAt, updatedAt };
     return user;
   };
 
