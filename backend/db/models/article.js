@@ -10,9 +10,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {});
-  Article.associate = function (models) {
-    Article.belongsTo(models.User, { foreignKey: 'userId' });
-    Article.hasMany(models.Comment, { foreignKey: 'commentId', onDelete: 'CASCADE' })
+  Article.associate = function(models) {
+    Article.belongsTo(models.User, { foreignKey: 'userId'});
+    Article.hasMany(models.Comment, { foreignKey:'commentId', onDelete:'CASCADE' })
   };
   return Article;
 };
