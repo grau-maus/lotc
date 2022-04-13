@@ -1,0 +1,9 @@
+.decklist-link {
+  text-align: center;
+  padding: 0.2rem 0;
+  width: 20rem;
+}
+
+.decklist-link:hover {
+  background-color: rgb(226, 226, 226);
+}

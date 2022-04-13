@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { Form, Button, Card } from 'react-bootstrap';
-import "./SignupForm.css";
 import * as sessionActions from "../../store/session";
 import { FESignupValidation, BESignupValidation } from "../../utils/validators";
 
@@ -74,8 +73,11 @@ function SignupForm() {
 
   return (
     <>
-      <Card className="signing-form">
+      <Card>
         <Card.Body>
+          <Card.Title>
+            Sign up
+          </Card.Title>
           <Form noValidate onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
