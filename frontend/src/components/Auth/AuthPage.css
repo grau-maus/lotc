@@ -1,0 +1,10 @@
+.auth-page {
+  /* 56px from navbar */
+  height: calc(100vh - 56px);
+}
+
+.auth-page > div.row {
+  height: 100%;
+  display: flex;
+  align-content: center;
+}

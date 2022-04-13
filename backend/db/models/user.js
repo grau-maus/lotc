@@ -4,8 +4,6 @@ const { ValidatorsImpl } = require("express-validator/src/chain");
 const { Validator } = require('sequelize');
 const bcrypt = require('bcryptjs');
 
-const { Like } = require('./');
-
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define('User', {
     username: {

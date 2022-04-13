@@ -56,6 +56,9 @@ function SigninForm() {
     <>
       <Card>
         <Card.Body>
+          <Card.Title>
+            Log in
+          </Card.Title>
           <Form noValidate onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Username / Email</Form.Label>
@@ -101,7 +104,7 @@ function SigninForm() {
               </Form.Control.Feedback>
             </Form.Group>
             <Button variant="primary" type="submit">
-              Sign In
+              Log In
             </Button>
           </Form>
         </Card.Body>
