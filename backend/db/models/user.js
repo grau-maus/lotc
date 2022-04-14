@@ -98,6 +98,7 @@ module.exports = (sequelize, DataTypes) => {
   User.associate = function (models) {
     User.hasMany(models.Article, { foreignKey: 'userId', onDelete: 'CASCADE' });
     User.hasMany(models.Comment, { foreignKey: 'userId', onDelete: 'CASCADE' });
+    User.hasMany(models.Dislike, { foreignKey: 'userId', onDelete: 'CASCADE' });
     User.belongsTo(models.Role, { foreignKey: 'roleId' });
   };
 

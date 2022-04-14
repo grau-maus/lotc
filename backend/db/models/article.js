@@ -13,7 +13,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Article.associate = function (models) {
     Article.belongsTo(models.User, { foreignKey: 'userId' });
-    Article.hasMany(models.Comment, { foreignKey: 'commentId', onDelete: 'CASCADE' })
+    Article.hasMany(models.Comment, { foreignKey: 'articleId', onDelete: 'CASCADE' });
+    Article.hasMany(models.Dislike, { foreignKey: 'articleId', onDelete: 'CASCADE' });
   };
   return Article;
 };
