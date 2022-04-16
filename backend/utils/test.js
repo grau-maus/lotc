@@ -1,12 +1,47 @@
 const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const deckList = require('./SCGCardData-0.5.json');
+const scrapedData = require('./SCGCardDataAll.json');
+
+const sleep = (milliseconds) => {
+  return new Promise(resolve => setTimeout(resolve, milliseconds))
+};
+
+const test = () => {
+  scrapedData.forEach(deck => {
+    if (!deck.cards) {
+      console.log(deck);
+    }
+  });
+  // deckList.forEach((deck) => {
+  //   const cards = scrapedData.find((cards) => cards.deckLink === deck.deckLink);
+  //   deck.cards = cards;
+  // });
+
+  // fs.writeFile('SCGCardDataAll.json', JSON.stringify(deckList), err => {
+  //   if (err) {
+  //     console.error(err);
+  //     return;
+  //   }
+  // });
+};
+
+test();
+
+const mergeData = () => {
+  fs.writeFile('SCGCardDataAll.json', JSON.stringify(), err => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+  });
+};
 
 const getAllCardData = async () => {
   const allCardData = [];
 
   for (let i = 0; i < deckList.length; i++) {
+    await sleep(500);
     const response = await axios.get(deckList[i].deckLink);
     const html = response.data;
     const $ = cheerio.load(html);
@@ -48,7 +83,7 @@ const getAllCardData = async () => {
     allCardData.push(deckData);
   }
 
-  fs.writeFile('SCGDeckCardsData-0.5.json', JSON.stringify(allCardData), err => {
+  fs.writeFile('SCGDeckCardsData-8.json', JSON.stringify(allCardData), err => {
     if (err) {
       console.error(err);
       return;
@@ -129,5 +164,6 @@ const splitDeckListData = () => {
   });
 };
 
-getAllCardData();
+// getAllCardData();
 // splitDeckListData();
+// mergeData();
