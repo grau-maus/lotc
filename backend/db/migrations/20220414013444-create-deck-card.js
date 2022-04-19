@@ -18,6 +18,14 @@ module.exports = {
         allowNull: false,
         references: { model: 'Cards' }
       },
+      cardType: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      count: {
+        type: Sequelize.INTEGER,
+        allowNull: false
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

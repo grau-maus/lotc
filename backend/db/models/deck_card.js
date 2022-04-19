@@ -10,7 +10,15 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: { model: 'Cards' }
-    }
+    },
+    cardType: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    count: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
   }, {});
   Deck_Card.associate = function (models) {
     Deck_Card.belongsTo(models.Deck, { foreignKey: 'deckId' });
