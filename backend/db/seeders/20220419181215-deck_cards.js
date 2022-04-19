@@ -3,17 +3,15 @@ const jsonData = require('../../utils/deckCardSeeder_20210101-20220331.json');
 
 const seederData = [];
 
-jsonData.forEach((deckCards) => {
-  deckCards.forEach((card) => {
-    const parsedDeckCards = {
-      deckId: card.deckId,
-      cardId: card.cardId,
-      cardType: card.type,
-      count: card.count
-    };
+jsonData.forEach((card) => {
+  const parsedCard = {
+    deckId: card.deckId,
+    cardId: card.cardId,
+    cardType: card.type,
+    count: card.count
+  };
 
-    seederData.push(parsedDeckCards);
-  });
+  seederData.push(parsedCard);
 });
 
 module.exports = {
