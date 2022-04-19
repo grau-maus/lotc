@@ -1,0 +1,5002 @@
+[
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155201",
+    "deckName": "Five-Color Niv-Mizzet (Yorion)",
+    "deckFinish": "12th",
+    "deckPlayer": "claudioh",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155202",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "13th",
+    "deckPlayer": "Stranger99",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155203",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "14th",
+    "deckPlayer": "Lennny",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155204",
+    "deckName": "Rakdos Midrange",
+    "deckFinish": "15th",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155205",
+    "deckName": "Grixis Arcanist",
+    "deckFinish": "16th",
+    "deckPlayer": "Phill_Hellmuth",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155239",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "1st",
+    "deckPlayer": "zachattack23",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155240",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "2nd",
+    "deckPlayer": "Penseur",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155241",
+    "deckName": "Golgari Yawgmoth",
+    "deckFinish": "3rd",
+    "deckPlayer": "GabeIsman",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155242",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "4th",
+    "deckPlayer": "rastaf",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155243",
+    "deckName": "Mono-White Hammer (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "Daking3603",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155244",
+    "deckName": "Selesnya Hammer (Lurrus)",
+    "deckFinish": "6th",
+    "deckPlayer": "BReal2",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155245",
+    "deckName": "Mono-Red Prowess (Obosh)",
+    "deckFinish": "7th",
+    "deckPlayer": "hauterho",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155246",
+    "deckName": "Hardened Scales",
+    "deckFinish": "8th",
+    "deckPlayer": "therf",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155190",
+    "deckName": "Jeskai Indomitable Creativity (Yorion)",
+    "deckFinish": "1st",
+    "deckPlayer": "WookieWasabi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155247",
+    "deckName": "Hardened Scales",
+    "deckFinish": "8th",
+    "deckPlayer": "therf",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155191",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "2nd",
+    "deckPlayer": "PeanutBrittle",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155248",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "9th",
+    "deckPlayer": "Nammersquats",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155192",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "3rd",
+    "deckPlayer": "Nammersquats",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155249",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "10th",
+    "deckPlayer": "eMJay0202",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155193",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "4th",
+    "deckPlayer": "xfile",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-11T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154973",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "7th",
+    "deckPlayer": "Lennny",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154974",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "8th",
+    "deckPlayer": "Ignotus97",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154975",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "Tunaktunak",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154976",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "10th",
+    "deckPlayer": "sneakymisato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154977",
+    "deckName": "Mono-Black Zombies❄",
+    "deckFinish": "11th",
+    "deckPlayer": "rastaf",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154978",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Sandydogmtg",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154979",
+    "deckName": "Orzhov Control❄",
+    "deckFinish": "13th",
+    "deckPlayer": "qbeczkowo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154980",
+    "deckName": "Golgari Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "Medvedev",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154981",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "15th",
+    "deckPlayer": "kasa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154982",
+    "deckName": "Dimir Control",
+    "deckFinish": "16th",
+    "deckPlayer": "AndyAWKWARD",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154967",
+    "deckName": "Dimir Control",
+    "deckFinish": "1st",
+    "deckPlayer": "Phill_Hellmuth",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154968",
+    "deckName": "Esper Control",
+    "deckFinish": "2nd",
+    "deckPlayer": "Terribad",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155044",
+    "deckName": "Mono-Green Tron",
+    "deckFinish": "14th",
+    "deckPlayer": "Redgy819",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155045",
+    "deckName": "Golgari Yawgmoth",
+    "deckFinish": "15th",
+    "deckPlayer": "DemonicTutors",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155046",
+    "deckName": "Living End",
+    "deckFinish": "16th",
+    "deckPlayer": "Cuzant",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154999",
+    "deckName": "Mono-Red Aggro",
+    "deckFinish": "1st",
+    "deckPlayer": "Coly2",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155000",
+    "deckName": "Orzhov Humans (Lurrus)",
+    "deckFinish": "2nd",
+    "deckPlayer": "rikubo0611",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155001",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "3rd",
+    "deckPlayer": "Mikhathara1994",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155002",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "4th",
+    "deckPlayer": "Pokerswizard",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155003",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "5th",
+    "deckPlayer": "Diem4x",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155031",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155004",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "6th",
+    "deckPlayer": "jessy_samek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155032",
+    "deckName": "Dimir Mill (Lurrus)",
+    "deckFinish": "2nd",
+    "deckPlayer": "tibalt_of_red_sub",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155005",
+    "deckName": "Mono-Red Aggro",
+    "deckFinish": "7th",
+    "deckPlayer": "Medvedev",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155033",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "3rd",
+    "deckPlayer": "yriel",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155006",
+    "deckName": "Rakdos Arcanist (Lurrus)",
+    "deckFinish": "8th",
+    "deckPlayer": "ssnelson",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155034",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "4th",
+    "deckPlayer": "O_danielakos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155007",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "9th",
+    "deckPlayer": "PrismaticRich",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155035",
+    "deckName": "Bant Spirits",
+    "deckFinish": "5th",
+    "deckPlayer": "DoctorQueller",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155008",
+    "deckName": "Naya Winota",
+    "deckFinish": "10th",
+    "deckPlayer": "Musasabi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155036",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "6th",
+    "deckPlayer": "BSK_hercules",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155009",
+    "deckName": "Boros Heroic (Lurrus)",
+    "deckFinish": "11th",
+    "deckPlayer": "_Falcon_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155037",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "7th",
+    "deckPlayer": "audio336",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155010",
+    "deckName": "Azorius Control",
+    "deckFinish": "12th",
+    "deckPlayer": "Seasoned_Pyromancer",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155038",
+    "deckName": "Jeskai Humans (Yorion)",
+    "deckFinish": "8th",
+    "deckPlayer": "Lifore",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155011",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "13th",
+    "deckPlayer": "PTarts2win",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155039",
+    "deckName": "Four-Color Elementals (Kaheera)",
+    "deckFinish": "9th",
+    "deckPlayer": "HNMagician",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155012",
+    "deckName": "Naya Winota",
+    "deckFinish": "14th",
+    "deckPlayer": "Capipf95",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155040",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "10th",
+    "deckPlayer": "Diem4x",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155013",
+    "deckName": "Mono-Blue Devotion",
+    "deckFinish": "15th",
+    "deckPlayer": "billsive",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155041",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "11th",
+    "deckPlayer": "starfall",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155014",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "16th",
+    "deckPlayer": "O_danielakos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155042",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "12th",
+    "deckPlayer": "2jjm",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155043",
+    "deckName": "Esper Reanimator",
+    "deckFinish": "13th",
+    "deckPlayer": "Xwhale",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154964",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "6th",
+    "deckPlayer": "Yo Akaike",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155080",
+    "deckName": "Grixis Control",
+    "deckFinish": "59th",
+    "deckPlayer": "Autumn Burchett",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154960",
+    "deckName": "Mono-Black Zombies❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "Simon Gortzen",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154965",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Christian Hauck",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154959",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Yuuki Ichikawa",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155085",
+    "deckName": "Mono-Blue Delver❄",
+    "deckFinish": "27th",
+    "deckPlayer": "Shintaro Ishimura",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154963",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "5th",
+    "deckPlayer": "Zachary Kiihne",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154961",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "3rd",
+    "deckPlayer": "Riku Kumagai",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155084",
+    "deckName": "Dimir Delver",
+    "deckFinish": "18th",
+    "deckPlayer": "Camillo Lukesch",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155079",
+    "deckName": "Dimir Control",
+    "deckFinish": "9th",
+    "deckPlayer": "Sam Rolph",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154962",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "4th",
+    "deckPlayer": "Toru Saito",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154966",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "8th",
+    "deckPlayer": "Yuta Takahashi",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155082",
+    "deckName": "Orzhov Control",
+    "deckFinish": "88th",
+    "deckPlayer": "Chaoyuan Zuo",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-05T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154991",
+    "deckName": "Dimir Control",
+    "deckFinish": "9th",
+    "deckPlayer": "Cabezadebolo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154992",
+    "deckName": "Esper Control",
+    "deckFinish": "10th",
+    "deckPlayer": "bless_von",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154993",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "11th",
+    "deckPlayer": "telsacow",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154994",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "_Shatun_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154995",
+    "deckName": "Golgari Midrange",
+    "deckFinish": "13th",
+    "deckPlayer": "Sapoa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154996",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "14th",
+    "deckPlayer": "LucasG1ggs",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154997",
+    "deckName": "Orzhov Control❄",
+    "deckFinish": "15th",
+    "deckPlayer": "Aardos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154998",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "16th",
+    "deckPlayer": "kristofff",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155087",
+    "deckName": "Rakdos Tokens",
+    "deckFinish": "38th",
+    "deckPlayer": "ウコン 福野田",
+    "event": "RedBull Untapped International Qualifier",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155089",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "manthos300",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155092",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "5th",
+    "deckPlayer": "DG Hermit",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155096",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "Sandydogmtg",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154983",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Ignotus97",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155100",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "CaimDark1",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154984",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "_Falcon_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154985",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "Hamuda",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154986",
+    "deckName": "Dimir Control",
+    "deckFinish": "4th",
+    "deckPlayer": "Funnyman31399",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154987",
+    "deckName": "Orzhov Aggro",
+    "deckFinish": "5th",
+    "deckPlayer": "melody_5233",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154988",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "Sorento04",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154989",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Valorj",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154990",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "8th",
+    "deckPlayer": "Orantspro",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155016",
+    "deckName": "Rakdos Midrange",
+    "deckFinish": "2nd",
+    "deckPlayer": "xfile",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155017",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "3rd",
+    "deckPlayer": "GUL_DUKAT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155018",
+    "deckName": "Naya Winota",
+    "deckFinish": "4th",
+    "deckPlayer": "Sneakattackkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155019",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "5th",
+    "deckPlayer": "KarnageKardsENT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155047",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155020",
+    "deckName": "Orzhov Humans (Lurrus)",
+    "deckFinish": "6th",
+    "deckPlayer": "nekonekoneko",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155048",
+    "deckName": "Amulet Titan",
+    "deckFinish": "2nd",
+    "deckPlayer": "Nade",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155021",
+    "deckName": "Izzet Control (Lutri)",
+    "deckFinish": "7th",
+    "deckPlayer": "Mogged",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155049",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "3rd",
+    "deckPlayer": "MrCafouillette",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155022",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "8th",
+    "deckPlayer": "Darthkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155050",
+    "deckName": "Jund Midrange",
+    "deckFinish": "4th",
+    "deckPlayer": "Sanitoeter",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155023",
+    "deckName": "Dimir Control",
+    "deckFinish": "9th",
+    "deckPlayer": "Powen",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155051",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "5th",
+    "deckPlayer": "Jeppeapan",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155024",
+    "deckName": "Jeskai Ascendancy",
+    "deckFinish": "10th",
+    "deckPlayer": "i_dont_know",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155052",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "6th",
+    "deckPlayer": "An_Actual_Potato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155025",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "11th",
+    "deckPlayer": "DennisReynolds",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155053",
+    "deckName": "Five-Color Humans",
+    "deckFinish": "7th",
+    "deckPlayer": "Fluorspar",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155026",
+    "deckName": "Esper Blink (Yorion)",
+    "deckFinish": "12th",
+    "deckPlayer": "laa11",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155054",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "8th",
+    "deckPlayer": "_Batutinha_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155027",
+    "deckName": "Bant Spirits",
+    "deckFinish": "13th",
+    "deckPlayer": "Ivan_Draw_Go",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155055",
+    "deckName": "Rakdos Midrange (Lurrus)",
+    "deckFinish": "9th",
+    "deckPlayer": "AvocadoToast",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155028",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "14th",
+    "deckPlayer": "PTarts2win",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155056",
+    "deckName": "Ad Nauseam",
+    "deckFinish": "10th",
+    "deckPlayer": "Aardos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155029",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "15th",
+    "deckPlayer": "Gen_Kie",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155057",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "11th",
+    "deckPlayer": "Vyncint_Blankenship",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155030",
+    "deckName": "Azorius Ensoul (Lurrus)",
+    "deckFinish": "16th",
+    "deckPlayer": "Fenrir18",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155058",
+    "deckName": "Grixis Midrange (Lurrus)",
+    "deckFinish": "12th",
+    "deckPlayer": "puzzled_periwinkle",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155059",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "13th",
+    "deckPlayer": "TheBigMoke",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155060",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "staffmat1992",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155061",
+    "deckName": "Mono-Red Midrange (Obosh)",
+    "deckFinish": "15th",
+    "deckPlayer": "MomsBasementStreams",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155062",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "16th",
+    "deckPlayer": "MartinezDP",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155133",
+    "deckName": "Azorius Urza (Yorion)",
+    "deckFinish": "27th",
+    "deckPlayer": "Manacymbal",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155015",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "1st",
+    "deckPlayer": "_Batutinha_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155091",
+    "deckName": "Jund Midrange",
+    "deckFinish": "4th",
+    "deckPlayer": "Davide Conterno",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155098",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "11th",
+    "deckPlayer": "Marcin Czajka",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155114",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "48th",
+    "deckPlayer": "Paulo Vitor Damo Da Rosa",
+    "event": "Innistrad Championship",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155094",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Lucas Hervás",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155081",
+    "deckName": "Esper Control",
+    "deckFinish": "22nd",
+    "deckPlayer": "Riley Hicks",
+    "event": "RedBull Untapped International Qualifier",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155095",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "8th",
+    "deckPlayer": "Koutarou Ishibashi",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155088",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Junya Iyanaga",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155099",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Roman Kopytin",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155083",
+    "deckName": "Mono-Black Control❄",
+    "deckFinish": "16th",
+    "deckPlayer": "Nathan Laumann",
+    "event": "RedBull Untapped International Qualifier",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155103",
+    "deckName": "Mono-Black Control❄",
+    "deckFinish": "16th",
+    "deckPlayer": "Nathan Laumann",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155097",
+    "deckName": "Jeskai Control",
+    "deckFinish": "10th",
+    "deckPlayer": "Grillo Maggio",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155101",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "14th",
+    "deckPlayer": "Andres Monsalve",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155090",
+    "deckName": "Dimir Control",
+    "deckFinish": "3rd",
+    "deckPlayer": "Dominick Paolercio",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155102",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "15th",
+    "deckPlayer": "Nicolas Riminucci",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155086",
+    "deckName": "Golgari Midrange",
+    "deckFinish": "6th",
+    "deckPlayer": "Marco Wish",
+    "event": "RedBull Untapped International Qualifier",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/155093",
+    "deckName": "Golgari Midrange",
+    "deckFinish": "6th",
+    "deckPlayer": "Marco Wish",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-12-04T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154830",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Lennny",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154831",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "kasa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154832",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "Jellytussle",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154833",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "4th",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154834",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "5th",
+    "deckPlayer": "Bolov0",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154835",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "Sandydogmtg",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154836",
+    "deckName": "Jeskai Control",
+    "deckFinish": "7th",
+    "deckPlayer": "Misplacedginger",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154837",
+    "deckName": "Jund Midrange",
+    "deckFinish": "8th",
+    "deckPlayer": "xfile",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154838",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "Stranger99",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154839",
+    "deckName": "Dimir Control",
+    "deckFinish": "10th",
+    "deckPlayer": "Phill_Hellmuth",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154840",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "11th",
+    "deckPlayer": "Rocardito",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154841",
+    "deckName": "Grixis Dragons",
+    "deckFinish": "12th",
+    "deckPlayer": "wilson5434",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154842",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "LucasG1ggs",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154843",
+    "deckName": "Esper Control",
+    "deckFinish": "14th",
+    "deckPlayer": "LukasDusek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154844",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "15th",
+    "deckPlayer": "SnailArg",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154845",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "16th",
+    "deckPlayer": "AlphaFrog",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154902",
+    "deckName": "Belcher",
+    "deckFinish": "9th",
+    "deckPlayer": "mala_grinja",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154875",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "14th",
+    "deckPlayer": "Mikhathara1994",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154903",
+    "deckName": "Temur Reclamation",
+    "deckFinish": "10th",
+    "deckPlayer": "scipios",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154876",
+    "deckName": "Lotus Field Combo",
+    "deckFinish": "15th",
+    "deckPlayer": "Tyerube1618",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154904",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "11th",
+    "deckPlayer": "jsteed",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154877",
+    "deckName": "Naya Winota",
+    "deckFinish": "16th",
+    "deckPlayer": "_Marian_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154905",
+    "deckName": "Burn",
+    "deckFinish": "12th",
+    "deckPlayer": "quinniac",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154906",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "13th",
+    "deckPlayer": "Darthkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154907",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "swff",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154908",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "15th",
+    "deckPlayer": "jaximus5",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154909",
+    "deckName": "Living End",
+    "deckFinish": "16th",
+    "deckPlayer": "1stTurnNegator",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154862",
+    "deckName": "Lotus Field Combo",
+    "deckFinish": "1st",
+    "deckPlayer": "Kadoonyec",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154863",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "2nd",
+    "deckPlayer": "Musasabi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154864",
+    "deckName": "Rakdos Arcanist (Lurrus)",
+    "deckFinish": "3rd",
+    "deckPlayer": "ZeroTimeMtg",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154865",
+    "deckName": "Jund Citadel",
+    "deckFinish": "4th",
+    "deckPlayer": "Chichotek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154866",
+    "deckName": "Naya Winota",
+    "deckFinish": "5th",
+    "deckPlayer": "spartan1zac",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154894",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "Diem4x",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154867",
+    "deckName": "Lotus Field Combo",
+    "deckFinish": "6th",
+    "deckPlayer": "Hampuse1",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154895",
+    "deckName": "Dredge",
+    "deckFinish": "2nd",
+    "deckPlayer": "Violent_Outburst",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154868",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "7th",
+    "deckPlayer": "jessy_samek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154896",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "3rd",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154869",
+    "deckName": "Rakdos Midrange",
+    "deckFinish": "8th",
+    "deckPlayer": "MagicianMagico",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154897",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "4th",
+    "deckPlayer": "Poderosisimo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154870",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "9th",
+    "deckPlayer": "_Tia93_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154898",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "Tacosalad",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154871",
+    "deckName": "Mono-Black Zombies",
+    "deckFinish": "10th",
+    "deckPlayer": "claudioh",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154899",
+    "deckName": "Jund Midrange",
+    "deckFinish": "6th",
+    "deckPlayer": "Sanitoeter",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154872",
+    "deckName": "Esper Control (Yorion)",
+    "deckFinish": "11th",
+    "deckPlayer": "manjyui",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154900",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "7th",
+    "deckPlayer": "_INF_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154873",
+    "deckName": "Izzet Control",
+    "deckFinish": "12th",
+    "deckPlayer": "canepis16",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154901",
+    "deckName": "Five-Color Humans",
+    "deckFinish": "8th",
+    "deckPlayer": "Treeborn",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154874",
+    "deckName": "Dimir Spirits (Lurrus)",
+    "deckFinish": "13th",
+    "deckPlayer": "Rearrangedas",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-28T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154846",
+    "deckName": "Esper Control",
+    "deckFinish": "1st",
+    "deckPlayer": "Wrzobuseks",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154847",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "2nd",
+    "deckPlayer": "AndyAWKWARD",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154848",
+    "deckName": "Esper Control",
+    "deckFinish": "3rd",
+    "deckPlayer": "LukasDusek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154849",
+    "deckName": "Izzet Dragons",
+    "deckFinish": "4th",
+    "deckPlayer": "LarryBeal",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154850",
+    "deckName": "Jeskai Control",
+    "deckFinish": "5th",
+    "deckPlayer": "Misplacedginger",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154851",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "beraldi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154852",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "rastaf",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154853",
+    "deckName": "Dimir Control",
+    "deckFinish": "8th",
+    "deckPlayer": "WaToO",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154854",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "iDaveW",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154855",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "10th",
+    "deckPlayer": "Hamuda",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154856",
+    "deckName": "Grixis Dragons",
+    "deckFinish": "11th",
+    "deckPlayer": "VictorHugo2001",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154857",
+    "deckName": "Orzhov Control❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Pokerswizard",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154858",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "Talisker",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154859",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "14th",
+    "deckPlayer": "Venom1",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154860",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "15th",
+    "deckPlayer": "Xuxa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154861",
+    "deckName": "Izzet Dragons",
+    "deckFinish": "16th",
+    "deckPlayer": "roter_Erzengel",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154878",
+    "deckName": "Naya Winota",
+    "deckFinish": "1st",
+    "deckPlayer": "OPTIMIS344",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154879",
+    "deckName": "Mono-Red Aggro",
+    "deckFinish": "2nd",
+    "deckPlayer": "Coly2",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154880",
+    "deckName": "Gruul Aggro",
+    "deckFinish": "3rd",
+    "deckPlayer": "SuperCow12653",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154881",
+    "deckName": "Izzet Control",
+    "deckFinish": "4th",
+    "deckPlayer": "sneakymisato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154882",
+    "deckName": "Jeskai Fires (Yorion)",
+    "deckFinish": "5th",
+    "deckPlayer": "Leviathan102",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154910",
+    "deckName": "Amulet Titan",
+    "deckFinish": "1st",
+    "deckPlayer": "bigjc00",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154883",
+    "deckName": "Golgari Food",
+    "deckFinish": "6th",
+    "deckPlayer": "Nick_Fox",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154911",
+    "deckName": "Mono-White Hammer (Lurrus)",
+    "deckFinish": "2nd",
+    "deckPlayer": "mell0n",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154884",
+    "deckName": "Izzet Control",
+    "deckFinish": "7th",
+    "deckPlayer": "Bullwinkkle6705",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154912",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "3rd",
+    "deckPlayer": "ltbeast",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154885",
+    "deckName": "Dimir Control",
+    "deckFinish": "8th",
+    "deckPlayer": "j_money10",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154913",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "4th",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154886",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "9th",
+    "deckPlayer": "_INF_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154914",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "5th",
+    "deckPlayer": "Do0mSwitch",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154887",
+    "deckName": "Orzhov Humans (Lurrus)",
+    "deckFinish": "10th",
+    "deckPlayer": "Oderus Urungus",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154915",
+    "deckName": "Mono-White Hammer (Lurrus)",
+    "deckFinish": "6th",
+    "deckPlayer": "Celldweller",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154888",
+    "deckName": "Golgari Midrange",
+    "deckFinish": "11th",
+    "deckPlayer": "praiseseigerhino",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154916",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "7th",
+    "deckPlayer": "Eyelash",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154932",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "21st",
+    "deckPlayer": "Thales Augusto",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154930",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Cheng Yu Chang",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154931",
+    "deckName": "Izzet Epiphany❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "Kazuki Kawata",
+    "event": "Big Magic",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154929",
+    "deckName": "Izzet Epiphany❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Leo Markowicz",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154928",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "3rd",
+    "deckPlayer": "Andre Santos",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154933",
+    "deckName": "Izzet Control",
+    "deckFinish": "11th",
+    "deckPlayer": "Yoshiaki Takisawa",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-27T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154827",
+    "deckName": "Rakdos Midrange",
+    "deckFinish": "8th",
+    "deckPlayer": "Sprouts",
+    "event": "Innistrad Championship Qualifier",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-22T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154772",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "1st",
+    "deckPlayer": "Medvedev",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154773",
+    "deckName": "Jeskai Control",
+    "deckFinish": "2nd",
+    "deckPlayer": "sneakymisato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154774",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "_against_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154775",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "4th",
+    "deckPlayer": "Paskardi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154776",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "5th",
+    "deckPlayer": "cftsoc3",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154777",
+    "deckName": "Grixis Control",
+    "deckFinish": "6th",
+    "deckPlayer": "GUL_DUKAT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154778",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "_Shatun_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154779",
+    "deckName": "Rakdos Vampires",
+    "deckFinish": "8th",
+    "deckPlayer": "PieGonti",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154780",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "9th",
+    "deckPlayer": "killersuv",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154781",
+    "deckName": "Gruul Midrange",
+    "deckFinish": "10th",
+    "deckPlayer": "Mogged",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154782",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "11th",
+    "deckPlayer": "billsive",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154783",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "bernardocssa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154784",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "13th",
+    "deckPlayer": "Jaberwocki",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154785",
+    "deckName": "Rakdos Vampires",
+    "deckFinish": "14th",
+    "deckPlayer": "indianpancake",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154786",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "15th",
+    "deckPlayer": "Xuxa",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154787",
+    "deckName": "Dimir Control",
+    "deckFinish": "16th",
+    "deckPlayer": "Phill_Hellmuth",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154788",
+    "deckName": "Dimir Control",
+    "deckFinish": "16th",
+    "deckPlayer": "Phill_Hellmuth",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154795",
+    "deckName": "Boros Heroic",
+    "deckFinish": "7th",
+    "deckPlayer": "Stanku",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154808",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "4th",
+    "deckPlayer": "swff",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154796",
+    "deckName": "Jeskai Ascendancy (Jegantha)",
+    "deckFinish": "8th",
+    "deckPlayer": "i_dont_know",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154809",
+    "deckName": "Burn (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "jamiieJR",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154797",
+    "deckName": "Dimir Control",
+    "deckFinish": "9th",
+    "deckPlayer": "Harry13",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154810",
+    "deckName": "Four-Color Control (Yorion)",
+    "deckFinish": "6th",
+    "deckPlayer": "PieGonti",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154798",
+    "deckName": "Mono-Black Zombies",
+    "deckFinish": "10th",
+    "deckPlayer": "asnook",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154811",
+    "deckName": "Amulet Titan",
+    "deckFinish": "7th",
+    "deckPlayer": "Musasabi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154799",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "11th",
+    "deckPlayer": "Otakkun",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154812",
+    "deckName": "Ad Nauseam",
+    "deckFinish": "8th",
+    "deckPlayer": "Aardos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154800",
+    "deckName": "Mono-Green Devotion",
+    "deckFinish": "12th",
+    "deckPlayer": "Lukas261997",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154813",
+    "deckName": "Dredge",
+    "deckFinish": "9th",
+    "deckPlayer": "Violent_Outburst",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154801",
+    "deckName": "Jund Citadel",
+    "deckFinish": "13th",
+    "deckPlayer": "Bogdish",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154814",
+    "deckName": "Ad Nauseam",
+    "deckFinish": "10th",
+    "deckPlayer": "Selami",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154802",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "14th",
+    "deckPlayer": "KarnageKardsENT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154815",
+    "deckName": "Dredge",
+    "deckFinish": "11th",
+    "deckPlayer": "Bomboleriot",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154803",
+    "deckName": "Esper Blink (Yorion)",
+    "deckFinish": "15th",
+    "deckPlayer": "manjyui",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154816",
+    "deckName": "Four-Color Indomitable Creativity",
+    "deckFinish": "12th",
+    "deckPlayer": "ziofrancone",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154804",
+    "deckName": "Azorius Ensoul (Lurrus)",
+    "deckFinish": "16th",
+    "deckPlayer": "Tatsumaki_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154817",
+    "deckName": "Temur Crashcade",
+    "deckFinish": "13th",
+    "deckPlayer": "patheus_84",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154818",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "14th",
+    "deckPlayer": "MartinezDP",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154819",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "15th",
+    "deckPlayer": "HappySandwich",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154820",
+    "deckName": "Four-Color Control (Yorion)",
+    "deckFinish": "16th",
+    "deckPlayer": "ZYURYO",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154789",
+    "deckName": "Lotus Field Combo",
+    "deckFinish": "1st",
+    "deckPlayer": "Tyerube1618",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154790",
+    "deckName": "Gruul Midrange",
+    "deckFinish": "2nd",
+    "deckPlayer": "Ladon",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154791",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "3rd",
+    "deckPlayer": "_Tia93_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154792",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "4th",
+    "deckPlayer": "Diem4x",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154805",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "Laplasjan",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154793",
+    "deckName": "Orzhov Humans (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "Darthkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154806",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "2nd",
+    "deckPlayer": "jessy_samek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154794",
+    "deckName": "Five-Color Niv-Mizzet (Yorion)",
+    "deckFinish": "6th",
+    "deckPlayer": "claudioh",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154807",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "3rd",
+    "deckPlayer": "Do0mSwitch",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-21T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154675",
+    "deckName": "Rakdos Vampires",
+    "deckFinish": "8th",
+    "deckPlayer": "indianpancake",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154676",
+    "deckName": "Orzhov Zombies",
+    "deckFinish": "9th",
+    "deckPlayer": "TonyBarker9",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154677",
+    "deckName": "Dimir Control",
+    "deckFinish": "10th",
+    "deckPlayer": "LukasDusek",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154678",
+    "deckName": "Izzet Control",
+    "deckFinish": "11th",
+    "deckPlayer": "Do0mSwitch",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154679",
+    "deckName": "Grixis Control",
+    "deckFinish": "12th",
+    "deckPlayer": "AndyAWKWARD",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154680",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "SKNERUSMCKWACZ",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154681",
+    "deckName": "Gruul Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "Mogged",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154682",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "15th",
+    "deckPlayer": "Folero",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154683",
+    "deckName": "Orzhov Midrange❄",
+    "deckFinish": "16th",
+    "deckPlayer": "L3D91",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154668",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "1st",
+    "deckPlayer": "rastaf",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154669",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "Riickitun",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154670",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "beraldi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154671",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "4th",
+    "deckPlayer": "handsomePPZ",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154672",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "5th",
+    "deckPlayer": "LucasG1ggs",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154673",
+    "deckName": "Jund Midrange",
+    "deckFinish": "6th",
+    "deckPlayer": "duofanel",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154674",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Hamuda",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154700",
+    "deckName": "Jeskai Control (Kaheera)",
+    "deckFinish": "1st",
+    "deckPlayer": "MrCafouillette",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154701",
+    "deckName": "Living End",
+    "deckFinish": "2nd",
+    "deckPlayer": "Sodeq",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154702",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "3rd",
+    "deckPlayer": "Darthkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154703",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "4th",
+    "deckPlayer": "_INF_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154704",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "5th",
+    "deckPlayer": "Mordeka1ser",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154684",
+    "deckName": "Five-Color Enigmatic Incarnation (Yorion)",
+    "deckFinish": "1st",
+    "deckPlayer": "McWinSauce",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154705",
+    "deckName": "Amulet Titan",
+    "deckFinish": "6th",
+    "deckPlayer": "Titasun",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154685",
+    "deckName": "Grixis Fires (Jegantha)",
+    "deckFinish": "2nd",
+    "deckPlayer": "biz1",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154706",
+    "deckName": "Amulet Titan",
+    "deckFinish": "7th",
+    "deckPlayer": "Moniz0801",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154686",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "3rd",
+    "deckPlayer": "SpicyLeche",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154707",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "8th",
+    "deckPlayer": "Samlg01",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154687",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "4th",
+    "deckPlayer": "DennisReynolds",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154708",
+    "deckName": "Rakdos Midrange (Lurrus)",
+    "deckFinish": "9th",
+    "deckPlayer": "ElectricBob",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154699",
+    "deckName": "Orzhov Humans (Lurrus)",
+    "deckFinish": "16th",
+    "deckPlayer": "Bolov0",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154716",
+    "deckName": "Rakdos Midrange (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "Edwin Colleran",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154723",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "8th",
+    "deckPlayer": "Ivan Espinosa",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154718",
+    "deckName": "Sultai Infect",
+    "deckFinish": "3rd",
+    "deckPlayer": "Jeff Jao",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154720",
+    "deckName": "Hardened Scales (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "Joel LaPray",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154717",
+    "deckName": "Four-Color Indomitable Creativity",
+    "deckFinish": "2nd",
+    "deckPlayer": "Steven Pearlman",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154721",
+    "deckName": "Amulet Titan",
+    "deckFinish": "6th",
+    "deckPlayer": "Levi Sprung",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154719",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "4th",
+    "deckPlayer": "Nathan Steuer",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154722",
+    "deckName": "Amulet Titan",
+    "deckFinish": "7th",
+    "deckPlayer": "Andy Wilson",
+    "event": "CFB Las Vegas",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-20T13:00:00.000Z",
+    "eventLocation": "Las Vegas"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154570",
+    "deckName": "Belcher",
+    "deckFinish": "1st",
+    "deckPlayer": "ZYX_Jerry",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154567",
+    "deckName": "Gruul Aggro",
+    "deckFinish": "14th",
+    "deckPlayer": "canepis16",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154571",
+    "deckName": "Four-Color Elementals (Kaheera)",
+    "deckFinish": "2nd",
+    "deckPlayer": "HNMagician",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154568",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "15th",
+    "deckPlayer": "_Iuriper_",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154572",
+    "deckName": "Four-Color Glimpse",
+    "deckFinish": "3rd",
+    "deckPlayer": "Xenowan",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154569",
+    "deckName": "Bant Spirits",
+    "deckFinish": "16th",
+    "deckPlayer": "Kenzaburo",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154573",
+    "deckName": "Mono-White Hammer❄",
+    "deckFinish": "4th",
+    "deckPlayer": "CrusherBotBG",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154574",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "5th",
+    "deckPlayer": "Sokos13",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154575",
+    "deckName": "Belcher",
+    "deckFinish": "6th",
+    "deckPlayer": "SanPop",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154576",
+    "deckName": "Five-Color Control",
+    "deckFinish": "7th",
+    "deckPlayer": "CharlieTheBananaKing",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154577",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "8th",
+    "deckPlayer": "ZYURYO",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154578",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "9th",
+    "deckPlayer": "moksha",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154579",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "10th",
+    "deckPlayer": "Mechint",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154580",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "11th",
+    "deckPlayer": "ilFated",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154581",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "12th",
+    "deckPlayer": "swff",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154582",
+    "deckName": "Golgari Yawgmoth",
+    "deckFinish": "13th",
+    "deckPlayer": "DemonicTutors",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154583",
+    "deckName": "Mono-White Hammer (Lurrus)",
+    "deckFinish": "14th",
+    "deckPlayer": "UnsungZero",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154584",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "15th",
+    "deckPlayer": "Jeppeapan",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154585",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "16th",
+    "deckPlayer": "WaToO",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154554",
+    "deckName": "Lotus Field Combo",
+    "deckFinish": "1st",
+    "deckPlayer": "Tyerube1618",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154555",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "2nd",
+    "deckPlayer": "GiovaniMF",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154556",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "3rd",
+    "deckPlayer": "MaxMagicer",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154557",
+    "deckName": "Dimir Control",
+    "deckFinish": "4th",
+    "deckPlayer": "ScreenwriterNY",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154558",
+    "deckName": "Mono-Red Aggro",
+    "deckFinish": "5th",
+    "deckPlayer": "einstein9998",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154559",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "6th",
+    "deckPlayer": "Tunaktunak",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154560",
+    "deckName": "Mono-Black Vampires",
+    "deckFinish": "7th",
+    "deckPlayer": "L3D91",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154561",
+    "deckName": "Five-Color Enigmatic Incarnation (Yorion)",
+    "deckFinish": "8th",
+    "deckPlayer": "McWinSauce",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154562",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "9th",
+    "deckPlayer": "Otakkun",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154663",
+    "deckName": "Amulet Titan",
+    "deckFinish": "31st",
+    "deckPlayer": "Binolino",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154563",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "10th",
+    "deckPlayer": "AndyAWKWARD",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154664",
+    "deckName": "Gruul Midrange",
+    "deckFinish": "22nd",
+    "deckPlayer": "scipios",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154564",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "11th",
+    "deckPlayer": "Egormaister",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154665",
+    "deckName": "Amulet Titan",
+    "deckFinish": "31st",
+    "deckPlayer": "Binolino",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154565",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "12th",
+    "deckPlayer": "Lavaridge",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154566",
+    "deckName": "Gruul Aggro",
+    "deckFinish": "13th",
+    "deckPlayer": "Ladon",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154501",
+    "deckName": "Dimir Zombies",
+    "deckFinish": "8th",
+    "deckPlayer": "AmadiZazter",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154625",
+    "deckName": "Orzhov Midrange❄",
+    "deckFinish": "1st",
+    "deckPlayer": "ManaFox",
+    "event": "Miscellaneous",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154506",
+    "deckName": "Izzet Control",
+    "deckFinish": "1st",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154507",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "Bolov0",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154508",
+    "deckName": "Jund Midrange",
+    "deckFinish": "3rd",
+    "deckPlayer": "Cabezadebolo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154509",
+    "deckName": "Izzet Control",
+    "deckFinish": "4th",
+    "deckPlayer": "GUL_DUKAT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154510",
+    "deckName": "Temur Midrange",
+    "deckFinish": "5th",
+    "deckPlayer": "O_danielakos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154511",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "LucasG1ggs",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154512",
+    "deckName": "Jeskai Control",
+    "deckFinish": "7th",
+    "deckPlayer": "sneakymisato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154513",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "8th",
+    "deckPlayer": "_against_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154514",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "9th",
+    "deckPlayer": "Jaberwocki",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154515",
+    "deckName": "Izzet Control",
+    "deckFinish": "10th",
+    "deckPlayer": "Waldo423",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154516",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "11th",
+    "deckPlayer": "Tylamonster",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154517",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "12th",
+    "deckPlayer": "Wizard_2002",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154518",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "Paskardi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154519",
+    "deckName": "Dimir Control",
+    "deckFinish": "14th",
+    "deckPlayer": "Terribad",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154520",
+    "deckName": "Izzet Control",
+    "deckFinish": "15th",
+    "deckPlayer": "AlphaFrog",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154483",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "Guardianthesecond",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154521",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "16th",
+    "deckPlayer": "Oscar_Franco",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154485",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "8th",
+    "deckPlayer": "Lighdar",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154488",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "11th",
+    "deckPlayer": "Matthewo",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154498",
+    "deckName": "Izzet Control",
+    "deckFinish": "5th",
+    "deckPlayer": "Hedon",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154500",
+    "deckName": "Orzhov Control❄",
+    "deckFinish": "7th",
+    "deckPlayer": "CanadianEhTeam",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154490",
+    "deckName": "Jund Werewolves",
+    "deckFinish": "13th",
+    "deckPlayer": "Lucas Betarello",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154482",
+    "deckName": "Esper Control",
+    "deckFinish": "5th",
+    "deckPlayer": "Lukas Dusek",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154479",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "Simón Arboleda Escobar",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154481",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "4th",
+    "deckPlayer": "Remi Fortier",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154502",
+    "deckName": "Izzet Dragons ❄️",
+    "deckFinish": "9th",
+    "deckPlayer": "Max Goldman",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154499",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "6th",
+    "deckPlayer": "Tristan Hinkley",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154493",
+    "deckName": "Jund Midrange",
+    "deckFinish": "16th",
+    "deckPlayer": "Koutarou Ishibashi",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154491",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "14th",
+    "deckPlayer": "Nikos Kelaidis",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154505",
+    "deckName": "Azorius Midrange❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "William La Hay",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154492",
+    "deckName": "Izzet Control",
+    "deckFinish": "15th",
+    "deckPlayer": "Seth Manfield",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154503",
+    "deckName": "Mono-White Aggro ❄️",
+    "deckFinish": "10th",
+    "deckPlayer": "Tom Maxwell",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154480",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "3rd",
+    "deckPlayer": "Scott McNamara",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154497",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "4th",
+    "deckPlayer": "Michael Moranelli",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154487",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "10th",
+    "deckPlayer": "Jeff Pickhardt",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154478",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "1st",
+    "deckPlayer": "Rafael Quinta Pozo",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154504",
+    "deckName": "Mono-Black Zombies",
+    "deckFinish": "26th",
+    "deckPlayer": "Scott Spurlock",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154489",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Michael Swartz",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154484",
+    "deckName": "Mono-Black Zombies❄",
+    "deckFinish": "7th",
+    "deckPlayer": "Maciej Szmidt",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154494",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Paul Tong",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154496",
+    "deckName": "Boros Burn",
+    "deckFinish": "3rd",
+    "deckPlayer": "Brandon Whitley",
+    "event": "Hooglandia Open",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154486",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "Matheus Akio Yanagiura",
+    "event": "Red Bull Untapped",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-14T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154646",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Ozymandias",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154647",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "13th",
+    "deckPlayer": "Jayakrishnan A",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154648",
+    "deckName": "Jund Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "QiuLaohan",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154649",
+    "deckName": "Dimir Control",
+    "deckFinish": "15th",
+    "deckPlayer": "Elliphas",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154522",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "1st",
+    "deckPlayer": "Talisker",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154523",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "2nd",
+    "deckPlayer": "_Shatun_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154524",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "handsomePPZ",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154525",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "4th",
+    "deckPlayer": "Aardos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154526",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "5th",
+    "deckPlayer": "Hamuda",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154527",
+    "deckName": "Izzet Control",
+    "deckFinish": "6th",
+    "deckPlayer": "Waldo423",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154528",
+    "deckName": "Temur Midrange",
+    "deckFinish": "7th",
+    "deckPlayer": "Mogged",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154529",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "8th",
+    "deckPlayer": "Patxi",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154530",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "MJ_23",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154531",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "10th",
+    "deckPlayer": "Kedrip",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154532",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "11th",
+    "deckPlayer": "Bolov0",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154533",
+    "deckName": "Orzhov Clerics",
+    "deckFinish": "12th",
+    "deckPlayer": "Wizard_2002",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154534",
+    "deckName": "Temur Midrange",
+    "deckFinish": "13th",
+    "deckPlayer": "Darthkid",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154535",
+    "deckName": "Selesnya Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "Cabezadebolo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154536",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "15th",
+    "deckPlayer": "iDaveW",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154537",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "16th",
+    "deckPlayer": "telsacow",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154544",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "7th",
+    "deckPlayer": "Slasher21",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154545",
+    "deckName": "Orzhov Auras (Lurrus)",
+    "deckFinish": "8th",
+    "deckPlayer": "MJ_23",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154546",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "9th",
+    "deckPlayer": "_Falcon_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154586",
+    "deckName": "Gruul Belcher (Kaheera)",
+    "deckFinish": "1st",
+    "deckPlayer": "Bob49",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154547",
+    "deckName": "Five-Color Enigmatic Incarnation (Yorion)",
+    "deckFinish": "10th",
+    "deckPlayer": "McWinSauce",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154587",
+    "deckName": "Merfolk",
+    "deckFinish": "2nd",
+    "deckPlayer": "Tulio_Jaudy",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154548",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "11th",
+    "deckPlayer": "Watchwolf92",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154588",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "3rd",
+    "deckPlayer": "qbturtle15",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154549",
+    "deckName": "Mono-White Humans",
+    "deckFinish": "12th",
+    "deckPlayer": "Bolov0",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154589",
+    "deckName": "Amulet Titan",
+    "deckFinish": "4th",
+    "deckPlayer": "PuntThenWhine",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154550",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "13th",
+    "deckPlayer": "O_danielakos",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154590",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "5th",
+    "deckPlayer": "BERNASTORRES",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154551",
+    "deckName": "Naya Winota",
+    "deckFinish": "14th",
+    "deckPlayer": "yerffej03",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154591",
+    "deckName": "Orzhov Hammer (Lurrus)",
+    "deckFinish": "6th",
+    "deckPlayer": "Diem4x",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154552",
+    "deckName": "Mono-White Humans (Lurrus)",
+    "deckFinish": "15th",
+    "deckPlayer": "Hamuda",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154592",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "7th",
+    "deckPlayer": "_IlNano_",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154553",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "16th",
+    "deckPlayer": "_against_",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154593",
+    "deckName": "Jund Midrange (Lurrus)",
+    "deckFinish": "8th",
+    "deckPlayer": "Jeppeapan",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154594",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "9th",
+    "deckPlayer": "cftsoc3",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154595",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "10th",
+    "deckPlayer": "Stompy45",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154596",
+    "deckName": "Dimir Mill (Lurrus)",
+    "deckFinish": "11th",
+    "deckPlayer": "kasa",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154597",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "12th",
+    "deckPlayer": "SoulStrong",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154598",
+    "deckName": "Grixis Death's Shadow (Lurrus)",
+    "deckFinish": "13th",
+    "deckPlayer": "PvtEnormous",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154599",
+    "deckName": "Living End",
+    "deckFinish": "14th",
+    "deckPlayer": "bellfy",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154600",
+    "deckName": "Mono-Green Tron",
+    "deckFinish": "15th",
+    "deckPlayer": "GoldenKid24K",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154601",
+    "deckName": "Mono-Green Tron (Jegantha)",
+    "deckFinish": "16th",
+    "deckPlayer": "yPrincipe",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154473",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "9th",
+    "deckPlayer": "cftsoc3",
+    "event": "Magic Online Showcase Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": ""
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154538",
+    "deckName": "Boros Wizards (Lurrus)",
+    "deckFinish": "1st",
+    "deckPlayer": "PTarts2win",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154539",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "2nd",
+    "deckPlayer": "GUL_DUKAT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154540",
+    "deckName": "Selesnya Humans",
+    "deckFinish": "3rd",
+    "deckPlayer": "_Stream",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154541",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "4th",
+    "deckPlayer": "darius89",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154542",
+    "deckName": "Selesnya Humans",
+    "deckFinish": "5th",
+    "deckPlayer": "billsive",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154543",
+    "deckName": "Orzhov Vampires",
+    "deckFinish": "6th",
+    "deckPlayer": "KarnageKardsENT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154636",
+    "deckName": "Selesnya Humans",
+    "deckFinish": "2nd",
+    "deckPlayer": "Antonio Abreu",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154640",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "6th",
+    "deckPlayer": "Jamal Baglioli",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154643",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "9th",
+    "deckPlayer": "Bruno Beça",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154650",
+    "deckName": "Boros Aggro",
+    "deckFinish": "16th",
+    "deckPlayer": "Steffen Berning",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154635",
+    "deckName": "Orzhov Control❄",
+    "deckFinish": "1st",
+    "deckPlayer": "Felipe Landim",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154639",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "5th",
+    "deckPlayer": "Nathan Laumann",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154642",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "8th",
+    "deckPlayer": "Randall Newell",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154644",
+    "deckName": "Dimir Control",
+    "deckFinish": "10th",
+    "deckPlayer": "Fogo Norabo",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154645",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "11th",
+    "deckPlayer": "Carlos Stark Schofield",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154641",
+    "deckName": "Selesnya Humans",
+    "deckFinish": "7th",
+    "deckPlayer": "Bogdan Shapovalov",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154638",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "4th",
+    "deckPlayer": "Felix Strandt",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154637",
+    "deckName": "Mono-White Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "Timo Uusitalo",
+    "event": "Crokeyz Crimson Vow Tournament",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-13T13:00:00.000Z",
+    "eventLocation": "Magic Arena"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154375",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "15th",
+    "deckPlayer": "Terribad",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154376",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "16th",
+    "deckPlayer": "AHammer",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154361",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "1st",
+    "deckPlayer": "Lennny",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154362",
+    "deckName": "Dimir Control",
+    "deckFinish": "2nd",
+    "deckPlayer": "JUJUBEAN__2004",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154363",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "3rd",
+    "deckPlayer": "Misplacedginger",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154364",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "4th",
+    "deckPlayer": "AlphaFrog",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154365",
+    "deckName": "Temur Midrange",
+    "deckFinish": "5th",
+    "deckPlayer": "Sorento04",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154366",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "6th",
+    "deckPlayer": "GUL_DUKAT",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154367",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "7th",
+    "deckPlayer": "cftsoc3",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154368",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "8th",
+    "deckPlayer": "Folero",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154369",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "9th",
+    "deckPlayer": "telsacow",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154370",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "10th",
+    "deckPlayer": "Nammersquats",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154371",
+    "deckName": "Izzet Epiphany",
+    "deckFinish": "11th",
+    "deckPlayer": "Oscar_Franco",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154372",
+    "deckName": "Mono-Green Aggro❄",
+    "deckFinish": "12th",
+    "deckPlayer": "Slasher21",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154373",
+    "deckName": "Izzet Dragons",
+    "deckFinish": "13th",
+    "deckPlayer": "Bryzem1",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154374",
+    "deckName": "Temur Midrange",
+    "deckFinish": "14th",
+    "deckPlayer": "Mogged",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Standard",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154393",
+    "deckName": "Izzet Midrange",
+    "deckFinish": "1st",
+    "deckPlayer": "swff",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154394",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "2nd",
+    "deckPlayer": "moksha",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154395",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "3rd",
+    "deckPlayer": "WaToO",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154396",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "4th",
+    "deckPlayer": "altniccolo",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154397",
+    "deckName": "Dimir Mill (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "tibalt_of_red_sub",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154398",
+    "deckName": "Dimir Mill (Lurrus)",
+    "deckFinish": "5th",
+    "deckPlayer": "tibalt_of_red_sub",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154399",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "6th",
+    "deckPlayer": "ziyanghuakai",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154400",
+    "deckName": "Four-Color Control (Kaheera)",
+    "deckFinish": "7th",
+    "deckPlayer": "BobTheDog",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154401",
+    "deckName": "Mono-Red Prowess (Jegantha)",
+    "deckFinish": "8th",
+    "deckPlayer": "gabrylele91",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154402",
+    "deckName": "Burn",
+    "deckFinish": "9th",
+    "deckPlayer": "quinniac",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154377",
+    "deckName": "Azorius Control (Kaheera)",
+    "deckFinish": "1st",
+    "deckPlayer": "Jaberwocki",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154403",
+    "deckName": "Mono-White Hammer (Lurrus)",
+    "deckFinish": "10th",
+    "deckPlayer": "Billster47",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154378",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "2nd",
+    "deckPlayer": "sneakymisato",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154404",
+    "deckName": "Four-Color Blink (Yorion)",
+    "deckFinish": "11th",
+    "deckPlayer": "Kanister",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154379",
+    "deckName": "Izzet Phoenix",
+    "deckFinish": "3rd",
+    "deckPlayer": "cavedan",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154405",
+    "deckName": "Scapeshift",
+    "deckFinish": "12th",
+    "deckPlayer": "oosunq",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Modern",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  },
+  {
+    "deckLink": "https://old.starcitygames.com/decks/154380",
+    "deckName": "Naya Winota",
+    "deckFinish": "4th",
+    "deckPlayer": "spartan1zac",
+    "event": "Magic Online Challenge",
+    "eventFormat": "Pioneer",
+    "eventDate": "2021-11-07T13:00:00.000Z",
+    "eventLocation": "Magic Online"
+  }
+]

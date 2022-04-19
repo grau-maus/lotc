@@ -1,35 +1,52 @@
 const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const scrapedData = require('./SCGCardDataAll.json');
+// const scrapedData = require('./SCGCardDataAll.json');
+const deckList = require('./SCGCardDataAll_20210101-20220331.json');
+const testData = require('./testtttt.json');
 
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 };
 
 const test = () => {
-  scrapedData.forEach(deck => {
-    if (!deck.cards) {
-      console.log(deck);
-    }
-  });
-  // deckList.forEach((deck) => {
-  //   const cards = scrapedData.find((cards) => cards.deckLink === deck.deckLink);
-  //   deck.cards = cards;
-  // });
-
-  // fs.writeFile('SCGCardDataAll.json', JSON.stringify(deckList), err => {
-  //   if (err) {
-  //     console.error(err);
-  //     return;
-  //   }
-  // });
+  console.log();
+  console.log();
+  console.log(deckList.length === testData.length);
+  console.log();
+  console.log();
 };
 
-test();
-
 const mergeData = () => {
-  fs.writeFile('SCGCardDataAll.json', JSON.stringify(), err => {
+  const allScrapedData = [
+    ...scrapedData01,
+    ...scrapedData02,
+    ...scrapedData03,
+    ...scrapedData04,
+    ...scrapedData05,
+    ...scrapedData06,
+    ...scrapedData07,
+    ...scrapedData08,
+    ...scrapedData09,
+    ...scrapedData10,
+  ];
+
+  deckList.forEach((deck) => {
+    const cardData = allScrapedData.find((scrapedDeck) => scrapedDeck.deckLink === deck.deckLink);
+
+    if (!cardData) {
+      console.log(deck);
+    } else {
+      deck.cards = cardData;
+    }
+  });
+
+  console.log(deckList[0]);
+  console.log(deckList[0].cards);
+  console.log(deckList[deckList.length - 1]);
+  console.log(deckList[deckList.length - 1].cards);
+
+  fs.writeFile('testtttt.json', JSON.stringify(deckList), err => {
     if (err) {
       console.error(err);
       return;
@@ -45,35 +62,30 @@ const getAllCardData = async () => {
     const response = await axios.get(deckList[i].deckLink);
     const html = response.data;
     const $ = cheerio.load(html);
-    const cardContainer = $(".deck_card_wrapper");
-    const creatureCards = cardContainer.find("div:nth-child(1) > :nth-child(2) > li");
-    const landCards = cardContainer.find("div:nth-child(1) > :nth-child(4) > li");
-    const spellCards = cardContainer.find("div:nth-child(2) > ul > li");
-    const sideboardCards = cardContainer.find("div:nth-child(2) > div > ul > li");
+    const cardContainer = $(".deck_card_wrapper > div");
     const deckData = {
       deckLink: deckList[i].deckLink,
       cards: []
     };
 
-    creatureCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      deckData.cards.push([amount, cardName]);
-    });
-    landCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      deckData.cards.push([amount, cardName]);
-    });
-    spellCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      deckData.cards.push([amount, cardName]);
-    });
-    sideboardCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      deckData.cards.push([amount, cardName]);
+    cardContainer.each((i, elem) => {
+      $(elem).find('ul').each((j, ulElem) => {
+        let type = $(ulElem).prev().text().split('(')[0].trim().toLowerCase();
+        const parentClass = $(ulElem).parent().attr('class');
+
+        $(ulElem).find('li').each((k, liElem) => {
+          const amount = parseInt($(liElem).text().split(' ')[0], 10);
+          const cardName = $(liElem).find('a').text().trim();
+
+          if (parentClass === 'deck_sideboard' || !type) type = 'sideboard';
+
+          deckData.cards.push({
+            name: cardName,
+            count: amount,
+            type
+          });
+        });
+      });
     });
 
     console.log();
@@ -83,7 +95,7 @@ const getAllCardData = async () => {
     allCardData.push(deckData);
   }
 
-  fs.writeFile('SCGDeckCardsData-8.json', JSON.stringify(allCardData), err => {
+  fs.writeFile('SCGScrapedCardData-10.json', JSON.stringify(allCardData), err => {
     if (err) {
       console.error(err);
       return;
@@ -167,3 +179,4 @@ const splitDeckListData = () => {
 // getAllCardData();
 // splitDeckListData();
 // mergeData();
+test();

@@ -5,266 +5,269 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const { Card, Deck } = require('../../db/models');
 const { toUSCentralDate } = require('../../utils/dateParser');
-const deckList = require('../../utils/deckListData_20210101-20220331.json');
 
 const router = express.Router();
 
-router.get('/check-cards', asyncHandler(async (req, res) => {
-  const allCardData = [];
-
-  for (let i = 0; i < deckList.length; i++) {
-    const response = await axios.get(deckList[i].deckLink);
-    const html = response.data;
-    const $ = cheerio.load(html);
-    const cardContainer = $(".deck_card_wrapper");
-    const creatureCards = cardContainer.find("div:nth-child(1) > :nth-child(2) > li");
-    const landCards = cardContainer.find("div:nth-child(1) > :nth-child(4) > li");
-    const spellCards = cardContainer.find("div:nth-child(2) > ul > li");
-    const sideboardCards = cardContainer.find("div:nth-child(2) > div > ul > li");
-
-    creatureCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      allCardData.push(cardName);
-    });
-    landCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      allCardData.push(cardName);
-    });
-    spellCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      allCardData.push(cardName);
-    });
-    sideboardCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      allCardData.push(cardName);
-    });
-    console.log();
-    console.log(`...on deck #${i}`);
-    console.log();
-  }
-
-  fs.writeFile('SCGCardData.json', JSON.stringify(allCardData), err => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-  });
-
-  return res.json({ message: "done" });
-}));
-
 router.get('/', asyncHandler(async (req, res) => {
-  const deckCardSeederData = [];
-
-  for (let i = 0; i < deckList.length; i++) {
-    const deck = await Deck.findOne({
-      where: {
-        name: deckList[i].deckName,
-        place: deckList[i].deckFinish,
-        player: deckList[i].deckPlayer,
-        event: deckList[i].event,
-        format: deckList[i].eventFormat,
-        date: new Date(deckList[i].eventDate),
-        location: deckList[i].eventLocation
-      }
-    });
-    const response = await axios.get(deckList[i].deckLink);
-    const html = response.data;
-    const $ = cheerio.load(html);
-    const cardContainer = $(".deck_card_wrapper");
-    const creatureCards = cardContainer.find("div:nth-child(1) > :nth-child(2) > li");
-    const landCards = cardContainer.find("div:nth-child(1) > :nth-child(4) > li");
-    const spellCards = cardContainer.find("div:nth-child(2) > ul > li");
-    const sideboardCards = cardContainer.find("div:nth-child(2) > div > ul > li");
-    const creatureCardAmtName = [];
-    const creatureCardNames = [];
-    const SFCreatureCardNames = [];
-    const DFCreatureCardNames = [];
-    const landCardAmtName = [];
-    const landCardNames = [];
-    const SFLandCardNames = [];
-    const DFLandCardNames = [];
-    const spellCardAmtName = [];
-    const spellCardNames = [];
-    const SFSpellCardNames = [];
-    const DFSpellCardNames = [];
-    const sideboardCardAmtName = [];
-    const sideboardCardNames = [];
-    const SFSideboardCardNames = [];
-    const DFSideboardCardNames = [];
-
-    creatureCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      creatureCardNames.push(cardName);
-      creatureCardAmtName.push([amount, cardName]);
-    });
-    landCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      landCardNames.push(cardName);
-      landCardAmtName.push([amount, cardName]);
-    });
-    spellCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      spellCardNames.push(cardName);
-      spellCardAmtName.push([amount, cardName]);
-    });
-    sideboardCards.each((i, elem) => {
-      const amount = parseInt($(elem).text().split(" ")[0], 10);
-      const cardName = $(elem).find("a").text().trim();
-      sideboardCardNames.push(cardName);
-      sideboardCardAmtName.push([amount, cardName]);
-    });
-
-    const SFCreatureCardData = await Card.findAll({
-      where: {
-        name: creatureCardNames
-      }
-    });
-    const SFLandCardData = await Card.findAll({
-      where: {
-        name: landCardNames
-      }
-    });
-    const SFSpellCardData = await Card.findAll({
-      where: {
-        name: spellCardNames
-      }
-    });
-    const SFSideboardCardData = await Card.findAll({
-      where: {
-        name: sideboardCardNames
-      }
-    });
-
-    SFCreatureCardData.forEach(card => SFCreatureCardNames.push(card.name));
-    creatureCardNames.forEach(cardName => {
-      if (!SFCreatureCardNames.includes(cardName)) {
-        DFCreatureCardNames.push(cardName);
-      }
-    });
-    SFLandCardData.forEach(card => SFLandCardNames.push(card.name));
-    landCardNames.forEach(cardName => {
-      if (!SFLandCardNames.includes(cardName)) {
-        DFLandCardNames.push(cardName);
-      }
-    });
-    SFSpellCardData.forEach(card => SFSpellCardNames.push(card.name));
-    spellCardNames.forEach(cardName => {
-      if (!SFSpellCardNames.includes(cardName)) {
-        DFSpellCardNames.push(cardName);
-      }
-    });
-    SFSideboardCardData.forEach(card => SFSideboardCardNames.push(card.name));
-    sideboardCardNames.forEach(cardName => {
-      if (!SFSideboardCardNames.includes(cardName)) {
-        DFSideboardCardNames.push(cardName);
-      }
-    });
-
-    const DFCreatureCardData = await Card.findAll({
-      where: {
-        face: DFCreatureCardNames
-      }
-    });
-    const DFLandCardData = await Card.findAll({
-      where: {
-        face: DFLandCardNames
-      }
-    });
-    const DFSpellCardData = await Card.findAll({
-      where: {
-        face: DFSpellCardNames
-      }
-    });
-    const DFSideboardCardData = await Card.findAll({
-      where: {
-        face: DFSideboardCardNames
-      }
-    });
-
-    const deckCardData = {
-      deckId: deck.id,
-      creatureCards: [],
-      landCards: [],
-      spellCards: [],
-      sideboard: []
-    };
-
-    creatureCardAmtName.forEach((amtName) => {
-      const [amt, name] = amtName;
-      let cardRef = SFCreatureCardData.find((card) => card.name === name);
-
-      if (!cardRef) {
-        cardRef = DFCreatureCardData.find((card) => card.face === name);
-      }
-
-      deckCardData.creatureCards.push({
-        cardId: cardRef.id,
-        cardType: "creature",
-        count: amt
-      });
-    });
-    landCardAmtName.forEach((amtName) => {
-      const [amt, name] = amtName;
-      let cardRef = SFLandCardData.find((card) => card.name === name);
-
-      if (!cardRef) {
-        cardRef = DFLandCardData.find((card) => card.face === name);
-      }
-
-      deckCardData.landCards.push({
-        cardId: cardRef.id,
-        cardType: "land",
-        count: amt
-      });
-    });
-    spellCardAmtName.forEach((amtName) => {
-      const [amt, name] = amtName;
-      let cardRef = SFSpellCardData.find((card) => card.name === name);
-
-      if (!cardRef) {
-        cardRef = DFSpellCardData.find((card) => card.face === name);
-      }
-
-      deckCardData.spellCards.push({
-        cardId: cardRef.id,
-        cardType: "spell",
-        count: amt
-      });
-    });
-    sideboardCardAmtName.forEach((amtName) => {
-      const [amt, name] = amtName;
-      let cardRef = SFSideboardCardData.find((card) => card.name === name);
-
-      if (!cardRef) {
-        cardRef = DFSideboardCardData.find((card) => card.face === name);
-      }
-
-      deckCardData.sideboard.push({
-        cardId: cardRef.id,
-        cardType: "sideboard",
-        count: amt
-      });
-    });
-    deckCardSeederData.push(deckCardData);
-  }
-
-  fs.writeFile('newTest.json', JSON.stringify(deckCardSeederData), err => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-  });
-
-  return res.json({ message: 'mass', deckCardSeederData });
+  return res.send("nothing here");
 }));
+
+// router.get('/check-cards', asyncHandler(async (req, res) => {
+//   const allCardData = [];
+
+//   for (let i = 0; i < deckList.length; i++) {
+//     const response = await axios.get(deckList[i].deckLink);
+//     const html = response.data;
+//     const $ = cheerio.load(html);
+//     const cardContainer = $(".deck_card_wrapper");
+//     const creatureCards = cardContainer.find("div:nth-child(1) > :nth-child(2) > li");
+//     const landCards = cardContainer.find("div:nth-child(1) > :nth-child(4) > li");
+//     const spellCards = cardContainer.find("div:nth-child(2) > ul > li");
+//     const sideboardCards = cardContainer.find("div:nth-child(2) > div > ul > li");
+
+//     creatureCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       allCardData.push(cardName);
+//     });
+//     landCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       allCardData.push(cardName);
+//     });
+//     spellCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       allCardData.push(cardName);
+//     });
+//     sideboardCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       allCardData.push(cardName);
+//     });
+//     console.log();
+//     console.log(`...on deck #${i}`);
+//     console.log();
+//   }
+
+//   fs.writeFile('SCGCardData.json', JSON.stringify(allCardData), err => {
+//     if (err) {
+//       console.error(err);
+//       return;
+//     }
+//   });
+
+//   return res.json({ message: "done" });
+// }));
+
+// router.get('/', asyncHandler(async (req, res) => {
+//   const deckCardSeederData = [];
+
+//   for (let i = 0; i < deckList.length; i++) {
+//     const deck = await Deck.findOne({
+//       where: {
+//         name: deckList[i].deckName,
+//         place: deckList[i].deckFinish,
+//         player: deckList[i].deckPlayer,
+//         event: deckList[i].event,
+//         format: deckList[i].eventFormat,
+//         date: new Date(deckList[i].eventDate),
+//         location: deckList[i].eventLocation
+//       }
+//     });
+//     const response = await axios.get(deckList[i].deckLink);
+//     const html = response.data;
+//     const $ = cheerio.load(html);
+//     const cardContainer = $(".deck_card_wrapper");
+//     const creatureCards = cardContainer.find("div:nth-child(1) > :nth-child(2) > li");
+//     const landCards = cardContainer.find("div:nth-child(1) > :nth-child(4) > li");
+//     const spellCards = cardContainer.find("div:nth-child(2) > ul > li");
+//     const sideboardCards = cardContainer.find("div:nth-child(2) > div > ul > li");
+//     const creatureCardAmtName = [];
+//     const creatureCardNames = [];
+//     const SFCreatureCardNames = [];
+//     const DFCreatureCardNames = [];
+//     const landCardAmtName = [];
+//     const landCardNames = [];
+//     const SFLandCardNames = [];
+//     const DFLandCardNames = [];
+//     const spellCardAmtName = [];
+//     const spellCardNames = [];
+//     const SFSpellCardNames = [];
+//     const DFSpellCardNames = [];
+//     const sideboardCardAmtName = [];
+//     const sideboardCardNames = [];
+//     const SFSideboardCardNames = [];
+//     const DFSideboardCardNames = [];
+
+//     creatureCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       creatureCardNames.push(cardName);
+//       creatureCardAmtName.push([amount, cardName]);
+//     });
+//     landCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       landCardNames.push(cardName);
+//       landCardAmtName.push([amount, cardName]);
+//     });
+//     spellCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       spellCardNames.push(cardName);
+//       spellCardAmtName.push([amount, cardName]);
+//     });
+//     sideboardCards.each((i, elem) => {
+//       const amount = parseInt($(elem).text().split(" ")[0], 10);
+//       const cardName = $(elem).find("a").text().trim();
+//       sideboardCardNames.push(cardName);
+//       sideboardCardAmtName.push([amount, cardName]);
+//     });
+
+//     const SFCreatureCardData = await Card.findAll({
+//       where: {
+//         name: creatureCardNames
+//       }
+//     });
+//     const SFLandCardData = await Card.findAll({
+//       where: {
+//         name: landCardNames
+//       }
+//     });
+//     const SFSpellCardData = await Card.findAll({
+//       where: {
+//         name: spellCardNames
+//       }
+//     });
+//     const SFSideboardCardData = await Card.findAll({
+//       where: {
+//         name: sideboardCardNames
+//       }
+//     });
+
+//     SFCreatureCardData.forEach(card => SFCreatureCardNames.push(card.name));
+//     creatureCardNames.forEach(cardName => {
+//       if (!SFCreatureCardNames.includes(cardName)) {
+//         DFCreatureCardNames.push(cardName);
+//       }
+//     });
+//     SFLandCardData.forEach(card => SFLandCardNames.push(card.name));
+//     landCardNames.forEach(cardName => {
+//       if (!SFLandCardNames.includes(cardName)) {
+//         DFLandCardNames.push(cardName);
+//       }
+//     });
+//     SFSpellCardData.forEach(card => SFSpellCardNames.push(card.name));
+//     spellCardNames.forEach(cardName => {
+//       if (!SFSpellCardNames.includes(cardName)) {
+//         DFSpellCardNames.push(cardName);
+//       }
+//     });
+//     SFSideboardCardData.forEach(card => SFSideboardCardNames.push(card.name));
+//     sideboardCardNames.forEach(cardName => {
+//       if (!SFSideboardCardNames.includes(cardName)) {
+//         DFSideboardCardNames.push(cardName);
+//       }
+//     });
+
+//     const DFCreatureCardData = await Card.findAll({
+//       where: {
+//         face: DFCreatureCardNames
+//       }
+//     });
+//     const DFLandCardData = await Card.findAll({
+//       where: {
+//         face: DFLandCardNames
+//       }
+//     });
+//     const DFSpellCardData = await Card.findAll({
+//       where: {
+//         face: DFSpellCardNames
+//       }
+//     });
+//     const DFSideboardCardData = await Card.findAll({
+//       where: {
+//         face: DFSideboardCardNames
+//       }
+//     });
+
+//     const deckCardData = {
+//       deckId: deck.id,
+//       creatureCards: [],
+//       landCards: [],
+//       spellCards: [],
+//       sideboard: []
+//     };
+
+//     creatureCardAmtName.forEach((amtName) => {
+//       const [amt, name] = amtName;
+//       let cardRef = SFCreatureCardData.find((card) => card.name === name);
+
+//       if (!cardRef) {
+//         cardRef = DFCreatureCardData.find((card) => card.face === name);
+//       }
+
+//       deckCardData.creatureCards.push({
+//         cardId: cardRef.id,
+//         cardType: "creature",
+//         count: amt
+//       });
+//     });
+//     landCardAmtName.forEach((amtName) => {
+//       const [amt, name] = amtName;
+//       let cardRef = SFLandCardData.find((card) => card.name === name);
+
+//       if (!cardRef) {
+//         cardRef = DFLandCardData.find((card) => card.face === name);
+//       }
+
+//       deckCardData.landCards.push({
+//         cardId: cardRef.id,
+//         cardType: "land",
+//         count: amt
+//       });
+//     });
+//     spellCardAmtName.forEach((amtName) => {
+//       const [amt, name] = amtName;
+//       let cardRef = SFSpellCardData.find((card) => card.name === name);
+
+//       if (!cardRef) {
+//         cardRef = DFSpellCardData.find((card) => card.face === name);
+//       }
+
+//       deckCardData.spellCards.push({
+//         cardId: cardRef.id,
+//         cardType: "spell",
+//         count: amt
+//       });
+//     });
+//     sideboardCardAmtName.forEach((amtName) => {
+//       const [amt, name] = amtName;
+//       let cardRef = SFSideboardCardData.find((card) => card.name === name);
+
+//       if (!cardRef) {
+//         cardRef = DFSideboardCardData.find((card) => card.face === name);
+//       }
+
+//       deckCardData.sideboard.push({
+//         cardId: cardRef.id,
+//         cardType: "sideboard",
+//         count: amt
+//       });
+//     });
+//     deckCardSeederData.push(deckCardData);
+//   }
+
+//   fs.writeFile('newTest.json', JSON.stringify(deckCardSeederData), err => {
+//     if (err) {
+//       console.error(err);
+//       return;
+//     }
+//   });
+
+//   return res.json({ message: 'mass', deckCardSeederData });
+// }));
 
 // router.get('/standard-decklists', asyncHandler(async (req, res) => {
 //   const response = await axios.get("https://old.starcitygames.com/content/decklists/");

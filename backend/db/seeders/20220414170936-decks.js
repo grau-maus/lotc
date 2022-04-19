@@ -1,5 +1,5 @@
 'use strict';
-const deckList = require('../../utils/deckListData_20210101-20220331.json');
+const deckList = require('../../utils/SCGCardDataAll_20210101-20220331.json');
 const deckListSeeder = [];
 
 deckList.forEach((deck) => {
