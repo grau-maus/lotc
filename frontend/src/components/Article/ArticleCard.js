@@ -1,7 +1,7 @@
 import { Card, Image } from "react-bootstrap";
 import "./Article.css";
 
-function ArticleCard() {
+function ArticleCard({ article }) {
   return (
     <Card className="article-card">
       <Card.Body>
@@ -14,19 +14,19 @@ function ArticleCard() {
           />
           <div>
             <div className="article-card-title">
-              Article Title
+              {article.title}
             </div>
             <div className="article-card-profile-name-date">
               <span className="article-card-username">
-                jeb42069xxx
+                {article.User.username}
               </span>
               <span className="article-card-date">
-                04/20/2022 06:09pm
+                {new Date(article.updatedAt).toDateString()}
               </span>
             </div>
           </div>
         </Card.Title>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus quis sapien vestibulum blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent eu varius eros. Quisque quis magna vitae nulla susc...
+        {article.summary}
       </Card.Body>
     </Card>
   );

@@ -2,11 +2,27 @@ const fs = require('fs');
 const express = require('express');
 const asyncHandler = require('express-async-handler');
 const { Op } = require('sequelize');
-const { Deck, Card } = require('../../db/models');
+const { Deck, Card, Deck_Card, Sequelize } = require('../../db/models');
 const scgCards = require('../../utils/SCGCardDataAll_20210101-20220331.json');
 const dualEffectCards = require('../../utils/dualEffectCardsList.json');
 
 const router = express.Router();
+
+router.get('/homepage', asyncHandler(async (req, res) => {
+  const decks = await Deck.findAll({
+    where: {
+      format: 'Standard'
+    },
+    attributes: ['date', 'event', 'location'],
+    group: ['date', 'event', 'location'],
+    order: [['date', 'DESC']],
+    limit: 27
+  });
+
+  return res.json(decks);
+}));
+
+
 
 // // route for pulling deckId and cardId, used for local debugging only
 // router.get('/test', asyncHandler(async (req, res) => {

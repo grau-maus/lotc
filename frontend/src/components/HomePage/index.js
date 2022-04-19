@@ -5,38 +5,49 @@ import DecklistCard from "../Decklist/DecklistCard";
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { thunk_getAllArticles } from '../../store/article';
+import { thunk_getHomepageArticles } from '../../store/article';
+import { thunk_getHomepageDecklists } from '../../store/deck';
+import { thunk_getMostPlayedCards } from '../../store/card';
 
 function HomePage() {
   const dispatch = useDispatch();
-  const allArticles = useSelector((state) => state.article);
+  const articles = useSelector((state) => state.articles.homepage);
+  const deckList = useSelector((state) => state.decks.homepage);
+  const mostPlayedCards = useSelector((state) => state.cards.mostPlayed);
 
-useEffect(() => {
-  dispatch(thunk_getAllArticles())
-}, [dispatch]);
+  useEffect(() => {
+    dispatch(thunk_getHomepageArticles());
+    dispatch(thunk_getHomepageDecklists());
+    dispatch(thunk_getMostPlayedCards());
+  }, [dispatch]);
 
-return (
-  <Container className="homepage">
-      {console.log(allArticles)}
+  return (
+    <Container className="homepage">
       <Row>
         <Col>
           <h1>Articles</h1>
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          {articles &&
+            articles.map((article) => (
+              <ArticleCard key={article.id} article={article} />
+            ))
+          }
         </Col>
         <Col>
           <h1>Decklists</h1>
-          <DecklistCard />
+          {deckList &&
+            <DecklistCard deckList={deckList} />
+          }
         </Col>
         <Col>
           <h1>Most played cards</h1>
-          <h1>most played cards</h1>
-          <h1>most played cards</h1>
-          <h1>most played cards</h1>
-          <h1>most played cards</h1>
-          <h1>most played cards</h1>
+          {mostPlayedCards &&
+            mostPlayedCards.map((card) => {
+              const cardName = card.Card.name.includes(' // ') ? card.Card.name.split(' // ')[0] : card.Card.name;
+              return (
+                <div>{cardName}</div>
+              );
+            })
+          }
         </Col>
       </Row>
     </Container>
