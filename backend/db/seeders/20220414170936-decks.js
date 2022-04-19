@@ -10,7 +10,8 @@ deckList.forEach((deck) => {
     event: deck.event,
     format: deck.eventFormat,
     date: new Date(deck.eventDate),
-    location: deck.eventLocation
+    location: deck.eventLocation,
+    link: deck.deckLink
   });
 });
 

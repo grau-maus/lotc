@@ -7,7 +7,8 @@ module.exports = (sequelize, DataTypes) => {
     event: DataTypes.STRING,
     format: DataTypes.STRING,
     date: DataTypes.DATE,
-    location: DataTypes.STRING
+    location: DataTypes.STRING,
+    link: DataTypes.STRING
   }, {});
   Deck.associate = function (models) {
     Deck.hasMany(models.Deck_Card, { foreignKey: 'deckId', onDelete: 'CASCADE' });
