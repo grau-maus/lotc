@@ -4,7 +4,8 @@ const bcrypt = require('bcryptjs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const deckList = require('./SCGCardDataAll_20210101-20220331.json');
-// const testData = require('./testtttt.json');
+const deckCards = require('./deckCardSeeder_20210101-20220331.json');
+const testData = require('./testtttt.json');
 
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
@@ -36,53 +37,27 @@ const userSeederJSON = () => {
 };
 
 const test = () => {
-  const allScrapedData = [
-    ...scrapedData00,
-    ...scrapedData01,
-    ...scrapedData02,
-    ...scrapedData03,
-    ...scrapedData04,
-    ...scrapedData05,
-    ...scrapedData06,
-    ...scrapedData07,
-    ...scrapedData08
-  ];
+  let count = 0;
+
+  deckCards.forEach(deck => deck.forEach(card => count++));
+
   console.log();
   console.log();
-  console.log(allScrapedData.length === testData.length);
+  console.log(count === testData.length);
   console.log();
   console.log();
 };
 
 const mergeData = () => {
-  const allScrapedData = [
-    ...scrapedData00,
-    ...scrapedData01,
-    ...scrapedData02,
-    ...scrapedData03,
-    ...scrapedData04,
-    ...scrapedData05,
-    ...scrapedData06,
-    ...scrapedData07,
-    ...scrapedData08
-  ];
+  const flattenedData = [];
 
-  // deckList.forEach((deck) => {
-  //   const cardData = allScrapedData.find((scrapedDeck) => scrapedDeck.deckLink === deck.deckLink);
+  deckCards.forEach((deck) => {
+    deck.forEach((card) => {
+      flattenedData.push(card);
+    });
+  });
 
-  //   if (!cardData) {
-  //     console.log(deck);
-  //   } else {
-  //     deck.cards = cardData;
-  //   }
-  // });
-
-  console.log(deckList[0]);
-  console.log(deckList[0].cards);
-  console.log(deckList[deckList.length - 1]);
-  console.log(deckList[deckList.length - 1].cards);
-
-  fs.writeFile('testtttt.json', JSON.stringify(allScrapedData), err => {
+  fs.writeFile('testtttt.json', JSON.stringify(flattenedData), err => {
     if (err) {
       console.error(err);
       return;
