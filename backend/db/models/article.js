@@ -5,6 +5,14 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.TEXT,
       allowNull: false
     },
+    title: {
+      type: DataTypes.TEXT,
+      allowNull: false
+    },
+    summary: {
+      type: DataTypes.TEXT,
+      allowNull: false
+    },
     userId: {
       type: DataTypes.INTEGER,
       allowNull: false,

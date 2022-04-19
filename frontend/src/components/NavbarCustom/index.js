@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { useSelector } from "react-redux";
+import SignUp from "../Buttons/SignUp";
 import LogIn from "../Buttons/LogIn";
 import LogOut from "../Buttons/LogOut";
 
@@ -24,6 +25,7 @@ function NavbarCustom() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        {user ? null : <SignUp />}
         {user ? <LogOut /> : <LogIn />}
       </Container>
     </Navbar>
