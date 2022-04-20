@@ -16,7 +16,7 @@ router.get('/homepage', asyncHandler(async (req, res) => {
     attributes: ['date', 'event', 'location'],
     group: ['date', 'event', 'location'],
     order: [['date', 'DESC']],
-    limit: 27
+    limit: 25
   });
 
   return res.json(decks);

@@ -3,8 +3,8 @@ const { faker } = require('@faker-js/faker');
 const bcrypt = require('bcryptjs');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const deckList = require('./SCGCardDataAll_20210101-20220331.json');
-const deckCards = require('./deckCardSeeder_20210101-20220331.json');
+const allCardData = require('./default-cards-20220413211623.json');
+const cardSeederData = require('./cardSeeder.json');
 const testData = require('./testtttt.json');
 
 const sleep = (milliseconds) => {
@@ -37,27 +37,68 @@ const userSeederJSON = () => {
 };
 
 const test = () => {
-  let count = 0;
+  const missing = [];
+  testData.forEach((card) => {
+    if (Array.isArray(card.img)) {
+      console.log(card)
+    }
+  });
 
-  deckCards.forEach(deck => deck.forEach(card => count++));
-
-  console.log();
-  console.log();
-  console.log(count === testData.length);
-  console.log();
-  console.log();
+  // console.log(missing.length);
 };
 
 const mergeData = () => {
-  const flattenedData = [];
+  const missing = [];
+  // allCardData.forEach((card) => {
+  //   if (!card.image_uris) {
+  //     console.log(card);
+  //   }
+  // });
+  cardSeederData.forEach((card) => {
+    const cardResult = allCardData.find((cardRef) => {
+      const cardRefImgs = cardRef.image_uris;
 
-  deckCards.forEach((deck) => {
-    deck.forEach((card) => {
-      flattenedData.push(card);
+      if (cardRefImgs) {
+        if (Array.isArray(card.img)) {
+          cardRefImgs.small === card.img[0].small
+        } else {
+          return cardRefImgs.small === card.img.small;
+        }
+      } else {
+        let findResult;
+        cardRef.card_faces.forEach((face) => {
+          if (cardRef.image_status !== 'missing') {
+            if (Array.isArray(card.img)) {
+              if (face.image_uris.small === card.img[0].small) {
+                findResult = face.image_uris.small;
+              }
+            } else {
+              if (face.image_uris.small === card.img.small) {
+                findResult = face.image_uris.small;
+              }
+            }
+          }
+        });
+        if (Array.isArray(card.img)) {
+          return findResult === card.img[0].small;
+        } else {
+          return findResult === card.img.small;
+        }
+      }
     });
+
+    if (!cardResult) {
+      missing.push(card.name);
+    } else {
+      card.legalities = cardResult.legalities;
+    }
   });
 
-  fs.writeFile('testtttt.json', JSON.stringify(flattenedData), err => {
+  console.log(missing.length);
+  console.log(cardSeederData[0]);
+  console.log(cardSeederData[cardSeederData.length - 1]);
+
+  fs.writeFile('testtttt.json', JSON.stringify(cardSeederData), err => {
     if (err) {
       console.error(err);
       return;

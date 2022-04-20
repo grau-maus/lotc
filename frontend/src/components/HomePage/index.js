@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { thunk_getHomepageArticles } from '../../store/article';
 import { thunk_getHomepageDecklists } from '../../store/deck';
-import { thunk_getMostPlayedCards } from '../../store/card';
+import { thunk_getMostPlayedStandardCards } from '../../store/card';
 
 function HomePage() {
   const dispatch = useDispatch();
@@ -18,7 +18,7 @@ function HomePage() {
   useEffect(() => {
     dispatch(thunk_getHomepageArticles());
     dispatch(thunk_getHomepageDecklists());
-    dispatch(thunk_getMostPlayedCards());
+    dispatch(thunk_getMostPlayedStandardCards());
   }, [dispatch]);
 
   return (
@@ -39,10 +39,10 @@ function HomePage() {
           }
         </Col>
         <Col>
-          <h1>Most played cards</h1>
+          <h1>Most played standard cards</h1>
           {mostPlayedCards &&
             mostPlayedCards.map((card) => {
-              const cardName = card.Card.name.includes(' // ') ? card.Card.name.split(' // ')[0] : card.Card.name;
+              const cardName = card.name.includes(' // ') ? card.name.split(' // ')[0] : card.name;
               return (
                 <div>{cardName}</div>
               );

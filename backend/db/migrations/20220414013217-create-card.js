@@ -32,6 +32,60 @@ module.exports = {
       borderCrop: {
         type: Sequelize.TEXT
       },
+      standard: {
+        type: Sequelize.STRING
+      },
+      future: {
+        type: Sequelize.STRING
+      },
+      historic: {
+        type: Sequelize.STRING
+      },
+      gladiator: {
+        type: Sequelize.STRING
+      },
+      pioneer: {
+        type: Sequelize.STRING
+      },
+      modern: {
+        type: Sequelize.STRING
+      },
+      legacy: {
+        type: Sequelize.STRING
+      },
+      pauper: {
+        type: Sequelize.STRING
+      },
+      vintage: {
+        type: Sequelize.STRING
+      },
+      penny: {
+        type: Sequelize.STRING
+      },
+      commander: {
+        type: Sequelize.STRING
+      },
+      brawl: {
+        type: Sequelize.STRING
+      },
+      historicbrawl: {
+        type: Sequelize.STRING
+      },
+      alchemy: {
+        type: Sequelize.STRING
+      },
+      paupercommander: {
+        type: Sequelize.STRING
+      },
+      duel: {
+        type: Sequelize.STRING
+      },
+      oldschool: {
+        type: Sequelize.STRING
+      },
+      premodern: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

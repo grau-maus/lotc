@@ -14,7 +14,25 @@ cards.forEach((card, idx) => {
         imgLarge: face.large,
         imgPng: face.png,
         artCrop: face.art_crop,
-        borderCrop: face.border_crop
+        borderCrop: face.border_crop,
+        standard: card.legalities.standard,
+        future: card.legalities.future,
+        historic: card.legalities.historic,
+        gladiator: card.legalities.gladiator,
+        pioneer: card.legalities.pioneer,
+        modern: card.legalities.modern,
+        legacy: card.legalities.legacy,
+        pauper: card.legalities.pauper,
+        vintage: card.legalities.vintage,
+        penny: card.legalities.penny,
+        commander: card.legalities.commander,
+        brawl: card.legalities.brawl,
+        historicbrawl: card.legalities.historicbrawl,
+        alchemy: card.legalities.alchemy,
+        paupercommander: card.legalities.paupercommander,
+        duel: card.legalities.duel,
+        oldschool: card.legalities.oldschool,
+        premodern: card.legalities.premodern
       });
     });
   } else {
@@ -26,7 +44,25 @@ cards.forEach((card, idx) => {
       imgLarge: card.img.large,
       imgPng: card.img.png,
       artCrop: card.img.art_crop,
-      borderCrop: card.img.border_crop
+      borderCrop: card.img.border_crop,
+      standard: card.legalities.standard,
+      future: card.legalities.future,
+      historic: card.legalities.historic,
+      gladiator: card.legalities.gladiator,
+      pioneer: card.legalities.pioneer,
+      modern: card.legalities.modern,
+      legacy: card.legalities.legacy,
+      pauper: card.legalities.pauper,
+      vintage: card.legalities.vintage,
+      penny: card.legalities.penny,
+      commander: card.legalities.commander,
+      brawl: card.legalities.brawl,
+      historicbrawl: card.legalities.historicbrawl,
+      alchemy: card.legalities.alchemy,
+      paupercommander: card.legalities.paupercommander,
+      duel: card.legalities.duel,
+      oldschool: card.legalities.oldschool,
+      premodern: card.legalities.premodern
     });
   }
 });
