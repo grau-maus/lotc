@@ -3,7 +3,7 @@ const { faker } = require('@faker-js/faker');
 const bcrypt = require('bcryptjs');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const allCardData = require('./default-cards-20220413211623.json')
+const allCardData = require('./default-cards-20220413211623.json');
 const cardSeederData = require('./cardSeeder.json');
 const testData = require('./testtttt.json');
 
@@ -37,13 +37,14 @@ const userSeederJSON = () => {
 };
 
 const test = () => {
+  const missing = [];
+  testData.forEach((card) => {
+    if (Array.isArray(card.img)) {
+      console.log(card)
+    }
+  });
 
-
-  console.log();
-  console.log();
-  console.log(cardSeederData.length === testData.length);
-  console.log();
-  console.log();
+  // console.log(missing.length);
 };
 
 const mergeData = () => {
@@ -58,17 +59,31 @@ const mergeData = () => {
       const cardRefImgs = cardRef.image_uris;
 
       if (cardRefImgs) {
-        return cardRefImgs.small === card.img.small;
+        if (Array.isArray(card.img)) {
+          cardRefImgs.small === card.img[0].small
+        } else {
+          return cardRefImgs.small === card.img.small;
+        }
       } else {
         let findResult;
         cardRef.card_faces.forEach((face) => {
           if (cardRef.image_status !== 'missing') {
-            if (face.image_uris.small === card.img.small) {
-              findResult = face.image_uris.small;
+            if (Array.isArray(card.img)) {
+              if (face.image_uris.small === card.img[0].small) {
+                findResult = face.image_uris.small;
+              }
+            } else {
+              if (face.image_uris.small === card.img.small) {
+                findResult = face.image_uris.small;
+              }
             }
           }
         });
-        return findResult === card.img.small;
+        if (Array.isArray(card.img)) {
+          return findResult === card.img[0].small;
+        } else {
+          return findResult === card.img.small;
+        }
       }
     });
 
