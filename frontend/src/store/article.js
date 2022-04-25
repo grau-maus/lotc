@@ -55,7 +55,7 @@ export const thunk_getHomepageArticles = () => async (dispatch) => {
 const initialState = {
   allArticles: null,
   homepage: null,
-  article: {article: null}
+  article: null
 };
 
 const articleReducer = (state = initialState, action) => {
