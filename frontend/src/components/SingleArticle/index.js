@@ -9,7 +9,6 @@ export default function SingleArticle() {
     const dispatch = useDispatch();
     const { id } = useParams();
     const article = useSelector((state) => state.articles.article);
-    // const comments = useSelector((state) => state.articles.article.Comments);
 
 useEffect(() => {
     dispatch(thunk_getSingleArticle(id));
