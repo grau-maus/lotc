@@ -9,25 +9,23 @@ export default function SingleArticle() {
     const dispatch = useDispatch();
     const { id } = useParams();
     const article = useSelector((state) => state.articles.article);
-    const comments = useSelector((state) => state.articles.comments);
-    let [loaded, setLoaded] = useState(false);
+    // const comments = useSelector((state) => state.articles.article.Comments);
 
 useEffect(() => {
     dispatch(thunk_getSingleArticle(id));
-    setLoaded(true)
 }, [dispatch]);
 
  if(!article) return <h1>loading</h1>
  return (
         <>
         <div breakpoints={['sm']}>
-          <h2>{article?.title}</h2>
-          <div>{article?.text}</div>
+          <h2>{article.title}</h2>
+          <div>{article.text}</div>
 
 
         </div>
         <h1>Comments</h1>
-        {comments?.map((comment) => (
+        {article.Comments?.map((comment) => (
             <p id={comment.id}>{comment.text}</p>
         ))}
         </>
