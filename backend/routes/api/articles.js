@@ -29,13 +29,10 @@ router.get('/homepage', asyncHandler(async (req, res) => {
 
 router.get('/getArticle/:id', asyncHandler(async (req, res) => {
     const id = req.params.id;
-    const article = await Article.findByPk(id);
-    const comments = await Comment.findAll({
-        where: {
-            articleId: id
-        }
+    const article = await Article.findByPk(id, {
+        include: [Comment]
     });
-    return res.json({ article, comments });
+    return res.json(article);
 }));
 
 router.post('/', asyncHandler(async (req, res) => {
