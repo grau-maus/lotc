@@ -2,6 +2,7 @@ import { csrfFetch } from './csrf';
 
 const GET_ALL_ARTICLES = '/articles/all';
 const GET_HOMEPAGE_ARTICLES = '/articles/homepage';
+const GET_SINGLE_ARTICLE = '/articles/single-article'
 
 const getAllArticles = (articles) => ({
   type: GET_ALL_ARTICLES,
@@ -12,6 +13,22 @@ const getHomepageArticles = (articles) => ({
   type: GET_HOMEPAGE_ARTICLES,
   payload: articles
 });
+
+const getSingleArticle = (article) => ({
+  type: GET_SINGLE_ARTICLE,
+  payload: article
+})
+
+export const thunk_getSingleArticle = (id) => async (dispatch) => {
+  const res = await fetch(`/api/articles/getArticle/${id}`);
+
+  if (res.ok) {
+  const data = await res.json();
+  dispatch(getSingleArticle(data));
+  } else {
+    console.error('error fetching single article');
+  };
+};
 
 export const thunk_getAllArticles = () => async (dispatch) => {
   const res = await csrfFetch('/api/articles/all');
@@ -37,7 +54,8 @@ export const thunk_getHomepageArticles = () => async (dispatch) => {
 
 const initialState = {
   allArticles: null,
-  homepage: null
+  homepage: null,
+  article: {article: null}
 };
 
 const articleReducer = (state = initialState, action) => {
@@ -50,6 +68,10 @@ const articleReducer = (state = initialState, action) => {
     case GET_HOMEPAGE_ARTICLES:
       newState = Object.assign({}, state);
       newState.homepage = action.payload;
+      return newState;
+    case GET_SINGLE_ARTICLE:
+      newState = Object.assign({}, state);
+      newState.article = action.payload;
       return newState;
     default:
       return state;

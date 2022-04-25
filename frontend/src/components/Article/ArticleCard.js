@@ -1,9 +1,11 @@
 import { Card, Image } from "react-bootstrap";
+import { useHistory, Link } from 'react-router-dom';
 import "./Article.css";
 
 function ArticleCard({ article }) {
   return (
     <Card className="article-card">
+      <Link to={`article/${article.id}`} style={{ textDecoration: 'none', color:'black' }}>
       <Card.Body>
         <Card.Title className="article-card-header">
           <Image
@@ -28,6 +30,7 @@ function ArticleCard({ article }) {
         </Card.Title>
         {article.summary}
       </Card.Body>
+      </Link>
     </Card>
   );
 }
