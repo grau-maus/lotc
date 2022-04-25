@@ -24,7 +24,7 @@ useEffect(() => {
 
         </div>
         <h1>Comments</h1>
-        {article.Comments?.map((comment) => (
+        {article.Comments.map((comment) => (
             <p id={comment.id}>{comment.text}</p>
         ))}
         </>
