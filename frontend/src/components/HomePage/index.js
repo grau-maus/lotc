@@ -4,7 +4,7 @@ import ArticleCard from "../Article/ArticleCard";
 import DecklistCard from "../Decklist/DecklistCard";
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import { thunk_getHomepageArticles } from '../../store/article';
 import { thunk_getHomepageDecklists } from '../../store/deck';
 import { thunk_getMostPlayedStandardCards } from '../../store/card';

@@ -6,6 +6,7 @@ import * as sessionActions from "./store/session";
 import NavbarCustom from "./components/NavbarCustom";
 import HomePage from "./components/HomePage";
 import AuthPage from "./components/Auth/AuthPage";
+import SingleArticle from "./components/SingleArticle";
 
 function App() {
   const dispatch = useDispatch();
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/" exact={true}>
           <HomePage />
+        </Route>
+        <Route path="/article/:id" exact={true}>
+          <SingleArticle/>
         </Route>
       </Switch>
     </BrowserRouter>

@@ -30,8 +30,12 @@ router.get('/homepage', asyncHandler(async (req, res) => {
 router.get('/getArticle/:id', asyncHandler(async (req, res) => {
     const id = req.params.id;
     const article = await Article.findByPk(id);
-
-    return res.json(article);
+    const comments = await Comment.findAll({
+        where: {
+            articleId: id
+        }
+    });
+    return res.json({ article, comments });
 }));
 
 router.post('/', asyncHandler(async (req, res) => {
